@@ -1,0 +1,12 @@
+{
+    "name": "icalendar",
+    "version": "0.1.0",
+    "author": "James Emerton <james@tri-tech.com>",
+    "description": "RFC5545 iCalendar parser/generator",
+    "keywords": ["icalendar", "rfc5545"],
+    "directories": { "lib": "lib" },
+    "main": "lib/icalendar",
+    "devDependencies": {
+        "jasmine-node": ">=1.1.3"
+    }
+}

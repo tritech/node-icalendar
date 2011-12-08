@@ -1,0 +1,2586 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gilsum NH Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20110917T140000Z
+DTEND:20110917T150000Z
+DTSTAMP:20111206T175451Z
+UID:01meijjkccslk5acp8rngq30es@google.com
+CREATED:20110913T133412Z
+DESCRIPTION:Sign up at first practice. Bring  any outgrown cleats and shin 
+ guards for our clea and shin guard swap. Contact Lisa Wettig at 352-1943.
+LAST-MODIFIED:20110913T134056Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH 03448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Youth Soccer Sign ups
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20110926T150000
+DTEND;TZID=America/New_York:20110926T160000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+DTSTAMP:20111206T175451Z
+UID:jmdoebbto9vubpjf32aokpojb4@google.com
+CREATED:20110913T133341Z
+DESCRIPTION:All girls welcome. Fall session starts September 26. Cadettes m
+ eet at Erwin's. Girl Scouts/Daisies - juniors meet at the church at 4PM. Ca
+ ll Lisa Wettig at 352-19423 or Kelly Erwin at 352-7966 for details.
+LAST-MODIFIED:20110913T133341Z
+LOCATION:Erwin residence\, High Street\, Gilsum\, NH 03448
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Girl Scout Cadettes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110920T230000Z
+DTEND:20110921T000000Z
+DTSTAMP:20111206T175451Z
+UID:j7bf412j86uvc2od5hkcoft96o@google.com
+CREATED:20110906T000037Z
+DESCRIPTION:Monadnock Regional School Board holds its regular meeting in Gi
+ lsum. It will offer time for comments from parents and residents and answer
+  questions from the Gilsum School Options and Sullivan School Study groups\
+ , which are reviewing school options for the future education of our childr
+ en. The work of these groups can be found here: https://sites.google.com/si
+ te/gilsumschooloptions/
+LAST-MODIFIED:20110906T000341Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH 03448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Special School Board Meeting in Gilsum
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20110815T153000
+DTEND;TZID=America/New_York:20110815T173000
+RRULE:FREQ=DAILY;UNTIL=20110819T193000Z
+DTSTAMP:20111206T175451Z
+UID:2j7uprg901h070j9catkru6ipg@google.com
+CREATED:20110807T205532Z
+DESCRIPTION:Looking for fun activities for the kids? Gilsum Congregational 
+ Church's vacation bible camp is open every afternoon from August 15-19 and 
+ is open to all children ages 3-15. Free! Registration is Monday\, August 15
+  at 3:00 PM. Just show up! For more information call Becky at 358-9598.
+LAST-MODIFIED:20110807T205532Z
+LOCATION:Gilsum  Congregational Church\, 13 Main Street\, Gilsum\, NH 03448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Vacation Bible Camp
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110819T220000Z
+DTEND:20110819T230000Z
+DTSTAMP:20111206T175451Z
+UID:tpnhoo2g506ri8vf1ggpir11s8@google.com
+CREATED:20110721T002127Z
+DESCRIPTION:
+LAST-MODIFIED:20110721T002137Z
+LOCATION:Gilsum Elementary School and Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Old Home Day Pot Luck Dinner at Gilsum Elementary School and Commun
+ ity Center
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110611T190000Z
+DTEND:20110611T210000Z
+DTSTAMP:20111206T175451Z
+UID:kq3vcu8r5dc4eslr9j7sd1dt6s@google.com
+CREATED:20110531T011419Z
+DESCRIPTION:Our  first annual summer music season kicks of with local singe
+ r\, songwriter and recording artist Mark Bishop Evans\, who brings his own 
+ brand of gospel music to the  Gilsum Congregational Church. Free! To learn 
+ more about Mark Bishop Evans visit www.markbishopevans.com
+LAST-MODIFIED:20110611T125915Z
+LOCATION:Gilsum Congregational Church\, 14 Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Concert: Mark Bishop Evans
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110611T150000Z
+DTEND:20110611T160000Z
+DTSTAMP:20111206T175451Z
+UID:e5nq6cq26d4m8eok2akkr38o2k@google.com
+CREATED:20110609T205737Z
+DESCRIPTION:
+LAST-MODIFIED:20110611T013449Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sullivan Tire
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110701T230000Z
+DTEND:20110702T010000Z
+DTSTAMP:20111206T175451Z
+UID:r4adfo928tgv24i7pqeqcpqnic@google.com
+CREATED:20110602T015451Z
+DESCRIPTION:
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: Pinocchio
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110520T233000Z
+DTEND:20110521T003000Z
+DTSTAMP:20111206T175451Z
+UID:10vteaebh38oqthsigqvmo5m58@google.com
+CREATED:20110420T030730Z
+DESCRIPTION:Friday Night at the Movies presents The Great Race. Come watch 
+ a free movie\, and one Free soda and popcorn at the door! Sponsored by the 
+ Gilsum Recreation Committee.  
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: Peter Pan
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110617T230000Z
+DTEND:20110618T010000Z
+DTSTAMP:20111206T175451Z
+UID:9103a4sbm8vgevafp12aosm4us@google.com
+CREATED:20110602T015411Z
+DESCRIPTION:
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: Pete's Dragon
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110610T230000Z
+DTEND:20110611T010000Z
+DTSTAMP:20111206T175451Z
+UID:9pdqeho0dfh09u3alu49pg7vbg@google.com
+CREATED:20110602T015322Z
+DESCRIPTION:
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: Lion King
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T230000Z
+DTEND:20110604T000000Z
+DTSTAMP:20111206T175451Z
+UID:jv48ku6drm2m0o352up40aqplg@google.com
+CREATED:20110420T030917Z
+DESCRIPTION:Friday Night at the Movies presents The Great Race. Come watch 
+ a free movie\, and one Free soda and popcorn at the door! Sponsored by the 
+ Gilsum Recreation Committee
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Movie Night: It's a Mad Mad Mad Mad World
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110528T150000Z
+DTEND:20110528T153000Z
+DTSTAMP:20111206T175451Z
+UID:oqcnkpghscos1f4e7coh3g5ppg@google.com
+CREATED:20110524T152248Z
+DESCRIPTION:Honor our veterans by attending this service\, Saturday at 11:0
+ 0 AM sharp!
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Main Street\, Gilsum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Memorial Day Service\, Main Street
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20110625
+DTEND;VALUE=DATE:20110627
+DTSTAMP:20111206T175451Z
+UID:o2kimh8g1276vnbvhv05pn2ks8@google.com
+CREATED:20110531T011249Z
+DESCRIPTION:Hours: 8-6 on Saturday\; 8 to 4 on Sunday.
+LAST-MODIFIED:20110611T013449Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Rock Swap & Mineral Show
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110416T170000Z
+DTEND:20110416T180000Z
+DTSTAMP:20111206T175451Z
+UID:3i3m8uovalf3g36ri5hu9k2jug@google.com
+CREATED:20110408T153649Z
+DESCRIPTION:Easter egg hunt for children K-6. For more details visit www.gi
+ lsum.org.
+LAST-MODIFIED:20110428T060208Z
+LOCATION:Gisum Public LIbrary\, Route 10\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Easter Egg Hunt
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T233000Z
+DTEND:20110528T003000Z
+DTSTAMP:20111206T175451Z
+UID:f59pp82f7nsrgeog1800gkurs0@google.com
+CREATED:20110420T030824Z
+DESCRIPTION:Friday Night at the Movies presents The Sandlot. Come watch a f
+ ree movie\, and one Free soda and popcorn at the door! Sponsored by the Gil
+ sum Recreation Committee.  
+LAST-MODIFIED:20110428T060207Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: The Sandlot
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110513T233000Z
+DTEND:20110514T003000Z
+DTSTAMP:20111206T175451Z
+UID:2f06s6tossts260evum7t9tle4@google.com
+CREATED:20110420T030715Z
+DESCRIPTION:Friday Night at the Movies presents Raiders of the Lost Ark. Co
+ me watch a free movie\, and one Free soda and popcorn at the door! Sponsore
+ d by the Gilsum Recreation Committee.  
+LAST-MODIFIED:20110428T060207Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: Raiders of the Lost Ark
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110506T233000Z
+DTEND:20110507T003000Z
+DTSTAMP:20111206T175451Z
+UID:gfpfqer8aohil3br45un3tr15s@google.com
+CREATED:20110420T030523Z
+DESCRIPTION:Friday Night at the Movies presents American Grafitti. Come wat
+ ch a free movie\, and one Free soda and popcorn at the door! Sponsored by t
+ he Gilsum Recreation Committee.  
+LAST-MODIFIED:20110428T060207Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Night: American Grafitti
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110317T200000Z
+DTEND:20110317T220000Z
+DTSTAMP:20111206T175451Z
+UID:bjaocgk952mris48i4v2sdg9ns@google.com
+CREATED:20110221T002308Z
+DESCRIPTION:Traditional Corned Beef and Cabbage Dinner. All seniors welcome
+ . Call Rellph Jernberg for details.
+LAST-MODIFIED:20110308T000101Z
+LOCATION:Gilsum Community Center / Elementary School\, 640 Route 10\, Gilsu
+ m\, NH 03448
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Seniors St Patrick's Day Dinner
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110212T140000Z
+DTEND:20110212T210000Z
+DTSTAMP:20111206T175451Z
+UID:hle8g8e63rrd234mpbbpt6h6ts@google.com
+CREATED:20110127T224142Z
+DESCRIPTION:Mark your calendar for The Sustainability Project’s 6th Annual 
+ Seed Celebration and Seed Exchange on February 12th\, from 9:00 a.m. - 4:00
+  p.m. (Snow Date: Sunday\, Feb. 13) at the Gilsum Elementary School Communi
+ ty Center\, 640 Route 10\, Gilsum.  Get a jump on the 2011 growing season. 
+ Stock up on seeds\, learn about local food\, farm and environmental initiat
+ ives\, and treat your children to a day of fun-filled nature and gardening 
+ activities.\n\n          This year’s event\, sponsored by the Gilsum Recrea
+ tion Committee\, UNFI\, and W.S. Badger\, includes workshops on Seed-Saving
+  with Sylvia Davatz\; Small Scale Bio-char Production with Doug Clayton and
+  friends\, and Herbs for Winter Health with herbalist\, Alisa Andrews.  Thr
+ oughout the day\, learn about beekeeping\, GMO awareness\, vermiculture\, c
+ omposting\, mycological landscaping and solar basics for the home\, farm an
+ d business.\n\n          Well-staffed children’s nature and gardening activ
+ ities run continuously all day. Over the years\, farmers\, gardeners and th
+ ose working for sustainable communities have come to know this event as a g
+ reat opportunity for networking.\n\n          In addition to the workshops\
+ , the event features vendors & educational displays\, an art raffle\, Afric
+ an drumming and dancing and a café serving hearty soups\, Orchard Hill brea
+ d\, and home-baked goods. Suggested donation: $7 for adults in advance\, $1
+ 0 at the door\, and $3.00 for children. No one will be turned away for lack
+  of funds.  For more information and tickets\, call 357-0860 and visit our 
+ website at www.emersonbrookforest.org for a full schedule of the day’s acti
+ vities.
+LAST-MODIFIED:20110308T000101Z
+LOCATION:Gilsum Elemntary School\, 640 Route 10\, Gilsum. NH 03448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Seed Celebration
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110219T220000Z
+DTEND:20110219T230000Z
+DTSTAMP:20111206T175451Z
+UID:fa6dkbfotvc2i52m93pn3h0qq4@google.com
+CREATED:20110114T152002Z
+DESCRIPTION:Join us at a mid-winter community pot luck dinner at the Elemen
+ tary School & Community Center on Saturday\, February 19 at 5 pm sharp! A "
+ Name that Tune" contest immediately follows. For details call Matt Karnecki
+  at 354-8006 or matt.karnecki@comcast.net.
+LAST-MODIFIED:20110308T000101Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Pot Luck/Name That Tune!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110310T000000Z
+DTEND:20110310T010000Z
+DTSTAMP:20111206T175451Z
+UID:rscueameqf485f95hle06hg4j8@google.com
+CREATED:20110210T022903Z
+DESCRIPTION:
+LAST-MODIFIED:20110308T000101Z
+LOCATION:Gilsum Community Centeer\, 640 Route 10 Gilsum\, NH 03448
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Gilsum Town Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110820T160000Z
+DTEND:20110821T013000Z
+DTSTAMP:20111206T175451Z
+UID:u10f7aamvkd04hdukeb4fji9ms@google.com
+CREATED:20110301T004933Z
+DESCRIPTION:
+LAST-MODIFIED:20110308T000101Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Old Home Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20110308
+DTEND;VALUE=DATE:20110309
+DTSTAMP:20111206T175451Z
+UID:n835rcu5tsmll12tks3nu9so9g@google.com
+CREATED:20110210T022846Z
+DESCRIPTION:
+LAST-MODIFIED:20110308T000101Z
+LOCATION:640 Route 10\, Gilsum NH 03448
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Election Day 1pm - 7pm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20110307T190000
+DTEND;TZID=America/New_York:20110307T200000
+RRULE:FREQ=WEEKLY;COUNT=6;BYDAY=MO
+DTSTAMP:20111206T175451Z
+UID:pk43lpgcths8odevdb42kpvdqc@google.com
+CREATED:20110221T001042Z
+DESCRIPTION:FUN AND FITNESS through BELLYDANCE AND VEIL\nclass right here i
+ n Gilsum!\n\nProgram continues for six weeks starting Monday. March 7th \nt
+ hrough Monday. April 6th \nOne  hour classes start at 7pm \nat the Gilsum E
+ lementary School Recreation Center!\nAll welcome.\n\nAll ladies young and o
+ ld\, every size and shape\; Exercise that body with bellydance & veil!!! \n
+ Classes are supported by the Recreation Committee\; Suggested DONATION of $
+ 10 class fees. \n\nCOME EXPERIENCE THE FUN!  \n\nWear comfortable clothes \
+ n(no shoes and you don’t have to show your belly!)\n\ncall Kary at (603)355
+ -8078 for more information\n\n
+LAST-MODIFIED:20110308T000101Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH 03448
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Belly Dance Class
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101211T160000Z
+DTEND:20101211T173000Z
+DTSTAMP:20111206T175451Z
+UID:um5hc4c97cuvtufgrlcicevhrc@google.com
+CREATED:20101206T202150Z
+DESCRIPTION:Come to the Gilsum Public Library for this free event for kids.
+  Refreshments provided. Free!\n
+LAST-MODIFIED:20110110T031213Z
+LOCATION:Gilsum Public Library\, Route 10\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ornament Making Event for Kids
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20110415
+DTEND;VALUE=DATE:20110416
+RRULE:FREQ=YEARLY
+DTSTAMP:20111206T175451Z
+UID:e2tdtu7nnn4elt8t2m8fl2pnks@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:All nonprofits that own real estate must file the NH Form A-9 t
+ o claim a real estate tax exemption. 
+LAST-MODIFIED:20110110T031213Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:NH Form A-9 For Nonprofits Due
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101229T170000Z
+DTEND:20101229T180000Z
+DTSTAMP:20111206T175451Z
+UID:7u4mj9f9c5qer1i4bn9hnu339c@google.com
+CREATED:20101227T215121Z
+DESCRIPTION:A Special Holiday Dinner will be held at the Gilsum Elementary 
+ School and Community Center on December 29th at noon\, and is open to all s
+ eniors (60+) in Gilsum\, Sullivan and Surry. Dinner tossed salad\, roast be
+ ef aujus\, mashed potato\, capri vegetable and brownie sundaes. Dietetic de
+ ssert available upon request. Free! Donations appreciated. Reservations req
+ uired. Please call Kelly at 352-2253. \n
+LAST-MODIFIED:20110110T031212Z
+LOCATION:Gilsum Elementary School / Community Center\, 640 Route 10\, Gilsu
+ m\, NH 03448
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Seniors Holiday Dinner
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101127T170000Z
+DTEND:20101127T180000Z
+DTSTAMP:20111206T175451Z
+UID:mcouj0hp9un90mtc8c4djvgal0@google.com
+CREATED:20101117T154300Z
+DESCRIPTION:Join us for fun food and refreshments - and a special visit fro
+ m Santa! Open to all. Festivities start at 12 noon.
+LAST-MODIFIED:20101225T064448Z
+LOCATION:The frog pond at the intersection of Main Street and Route 10
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Xmas Party at the Frog Pond
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101129T170000Z
+DTEND:20101129T190000Z
+DTSTAMP:20111206T175451Z
+UID:kgfca7lvrld8q1jblngp74cmus@google.com
+CREATED:20101129T225421Z
+DESCRIPTION:Special Holiday Dinner open to all seniors (60+) in Gilsum\, Su
+ llivan and Surry. Includes tossed salad\, roast beef aujus\, mashed potato\
+ , capri vegetable and brownie sundaes. Dietetic dessert available upon requ
+ est. Free! Donations appreciated. \n\nReservations required. Please call Ke
+ lly at 352-2253. \n\nGilsum Friendly Meals for Seniors is sponsored by Home
+  Healthcare\, Hospice and Community Services and the NES ACCESS after schoo
+ l program.\n\n
+LAST-MODIFIED:20101225T064448Z
+LOCATION:Gilsum School and Community Center\, 640 Route 10\, Gilsum\, NH 03
+ 448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Seniors Holiday Dinner
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20081124T183000
+DTEND;TZID=America/New_York:20081124T193000
+RRULE:FREQ=WEEKLY;BYDAY=MO;WKST=SU;UNTIL=20101101T035959Z
+DTSTAMP:20111206T175451Z
+UID:13miajii4i7jlr3jhs1pfcofs4@google.com
+CREATED:20081123T212452Z
+DESCRIPTION:Open to all girls. Contact Lisa Wettig for details at 352-1943.
+LAST-MODIFIED:20101118T004809Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Girl Scouts
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101031T213000Z
+DTEND:20101031T230000Z
+DTSTAMP:20111206T175451Z
+UID:qkbqfl8kimsvsvdcfcrbb7u39k@google.com
+CREATED:20101028T014557Z
+DESCRIPTION:
+LAST-MODIFIED:20101028T014613Z
+LOCATION:Gilsum Village
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Trick or Treating
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101031T230000Z
+DTEND:20101101T000000Z
+DTSTAMP:20111206T175451Z
+UID:l1pid5epiootg51unsdd4hsq4o@google.com
+CREATED:20101028T014527Z
+DESCRIPTION:Parade starts in front of the Historical Society Building. Chil
+ dren line up behind the fire truck and march down to the Fire Station\, whe
+ re treats and refreshents will be served! Refreshments compliments of the G
+ ilsum Recreation Committee.
+LAST-MODIFIED:20101028T014527Z
+LOCATION:24 Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Halloween Parade
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101004T200000Z
+DTEND:20101004T220000Z
+DTSTAMP:20111206T175451Z
+UID:rvsl1pk6m5c5ve0kf9m1qsdh60@google.com
+CREATED:20101025T143339Z
+DESCRIPTION:Fall Friendly Meal for Seniors is a free community dinner open 
+ to all seniors (60+) from Gilsum\, Sullivan and Surry. Menu: Tossed salad\,
+  roast pork\, fruited stuffing\, baby carrots\, apple pie. Dietetic dessert
+  is available upon request. Reservations required. Call Kelly at 352-2253. 
+ This is a free event but donations are appreciated. \n\nSponsored by Home H
+ ealthcare\, Hospice and Community Services and the NES ACCESS after school 
+ program.
+LAST-MODIFIED:20101025T143748Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH 03448
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Seniors Dinner at Gilsum Elementary School
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101026T170000Z
+DTEND:20101026T230000Z
+DTSTAMP:20111206T175451Z
+UID:sdr3lp76ir2f2sjo3cs9oe6f68@google.com
+CREATED:20101001T140347Z
+DESCRIPTION:
+LAST-MODIFIED:20101001T140645Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Special Vote: Withdrawl from SAU 38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100814T180000Z
+DTEND:20100814T190000Z
+DTSTAMP:20111206T175451Z
+UID:iu268vsc7d912kdn71v62bm7tk@google.com
+CREATED:20100722T195612Z
+DESCRIPTION:
+LAST-MODIFIED:20100802T064511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Parade
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100814
+DTEND;VALUE=DATE:20100815
+DTSTAMP:20111206T175451Z
+UID:khdc2omti00iep0kkplj2vd2ho@google.com
+CREATED:20100722T195551Z
+DESCRIPTION:
+LAST-MODIFIED:20100802T064511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OLD HOME DAY!
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100814T160000Z
+DTEND:20100814T170000Z
+DTSTAMP:20111206T175451Z
+UID:8c2b7leattfq1bfskap7kiofbk@google.com
+CREATED:20100722T195603Z
+DESCRIPTION:
+LAST-MODIFIED:20100802T064511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Antique Auto Show
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20100203T183000
+DTEND;TZID=America/New_York:20100203T200000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20100310T233000Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:k63rcccvi4sd73ofveol21196s@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:Open to all. Free. Sponsored by Gilsum Recreation Commission
+LAST-MODIFIED:20100606T100235Z
+LOCATION:Gilsum Elementary School Gym\, Route 10
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Open Basketball for Adults
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100628
+DTEND;VALUE=DATE:20100629
+DTSTAMP:20111206T175451Z
+UID:un9gqgnp8vagq6qqko3r8qqinc@google.com
+CREATED:20100523T165006Z
+DESCRIPTION:Your kids will enjoy healthy indoor and outdoor activities with
+  a new theme each week: Medieval Times Camp\, Sorts Camp\, Around the World
+  Camp\, Science Camp and more!  The program is open to children going into 
+ grades K-6 and runs from June 28 - August 6 at the Gilsum Elementary School
+  each week day from 9:00 am to 3:00 pm. Optional programs allow Kids to be 
+ dropped off as early as 6:30 am and picked up as late as 5:30 pm. Flexible 
+ program: Sign up for the weeks and days that fit your needs: just $45 per w
+ eek per child or $9 per day. Presented by NESACCESS\, Gilsum Recreation\, S
+ ullivan Recreation and the Northern Schools. For more information or to reg
+ ister call Ralph Jernberg at 352-2226 x217 or send an e-mail to nesaccess@g
+ mail.com.
+LAST-MODIFIED:20100606T100235Z
+LOCATION:Gilsum Elementary School\, 640 Route 10\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kids Summer Camp Program begins
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100612T150000Z
+DTEND:20100612T160000Z
+DTSTAMP:20111206T175451Z
+UID:0cvk99jngaqogtola5529fb6vc@google.com
+CREATED:20100604T004432Z
+DESCRIPTION:Open to all residents. Come have an ice cream and see what your
+  local library has to offer!\n
+LAST-MODIFIED:20100606T100235Z
+LOCATION:Gilsum Public Library\, 650 Route 10\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ice Cream Social
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100518T200000Z
+DTEND:20100518T210000Z
+DTSTAMP:20111206T175451Z
+UID:tdmgv7b0vlkvi2sosb57glo8qc@google.com
+CREATED:20100425T002202Z
+DESCRIPTION:Friendly Meals for Seniors. FREE. Seniors 60 and older\, please
+  joint us for Gilsum's first Friendly Meal. Menu: Barbeque Chicken & Ribs\,
+  summer salads\, strawberry shortcake. (dietetic dessert available). RESERV
+ ATIONS REQUIRED. Need a ride? Let us know when you make a reservation. call
+  Kelly at 352-2253. Donations accepted. Sponsored by Home Health care\, Hos
+ pice\, Community Services and the NES ACCESS After school program.\n
+LAST-MODIFIED:20100606T100234Z
+LOCATION:Gilsum School and Community Center\, 640 Route 10 Gilsum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Seniors Friendly Meal
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20100302T183000
+DTEND;TZID=America/New_York:20100302T203000
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20100406T223000Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:gtiflr18h9cjjvh9k4skamhbmg@google.com
+CREATED:20100302T152026Z
+DESCRIPTION:Kary MacNeil\, instructor. Open to all - both adults and teenag
+ ers. Donations accepted. \n\nCalling all ladies young and old\, of every si
+ ze and shape\; Bellydancing in Gilsum!!! Classes are supported by the Recre
+ ation Committee\; class fee is by donation. Come experience the fun at the 
+ Gilsum Elementary School gymnasium!\nWear comfortable clothes (no shoes and
+  you don’t have to show your belly!)\n\nKary’s classes offer a unique and w
+ onderfully affirming way to exercise and connect with one’s spirit. She has
+  been teaching for over 10 years and has a performing troupe that goes by t
+ he name\; “Spirit In Motion”: (now isn’t THAT appropriate!). Kary also offe
+ rs private and semi-private \nclasses\, and teaches groups at bridal shower
+ s\,                                                                        
+       \nbachelorette parties\, and get togethers.\nYou may call her at (603
+ )355-8078. Or\ncontact her at portraitsbykary@hotmail.com\n\nMiddle Eastern
+  Dance\, often referred to as                                              
+    \nBellydance\, is a wonderful form of movement\;                        
+                                                         \ncontaining within
+  its expression a multitude                                                
+                                   of benefits. The isolated movements of th
+ e hips\,  \nribcage\, and arms makes this dance not only  \nsensual and exc
+ iting\, but also offers a truly  \nbeneficial and unique workout!
+LAST-MODIFIED:20100302T152026Z
+LOCATION:Gilsum Elementary School and Community Center\, 640 Route 10\, Gil
+ sum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bellydance Class
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20100201T181500
+DTEND;TZID=America/New_York:20100201T193000
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20100308T231500Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:f8dp0dcv1ephhveumiqre1ppb8@google.com
+CREATED:20100202T152620Z
+DESCRIPTION:Free program sponsored by the Gilsum Recreation Commission. 1st
+  half hour is instructional.
+LAST-MODIFIED:20100228T090336Z
+LOCATION:Gilsum Elementary School\, Route 10
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Youth Basketball
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100306T123000Z
+DTEND:20100306T190000Z
+DTSTAMP:20111206T175451Z
+UID:hs0q54al697kugiomb1l5hs1qs@google.com
+CREATED:20100128T152110Z
+DESCRIPTION:Youth and adult categories. Registration begins at 7:30am.  Fis
+ hing and cooking demonstration 12:00pm.\nADMISSION: Adults: $10\; Youth 13-
+ 18: $3. Under 12: FREE. \n1st\, 2nd\, 3rd place awards in each category. \n
+ BAIT: Available on site.\nPRIZES: Awarded for longest pickerel\, perch\, sm
+ allest perch and 25 perch caught. Trophies awarded to youth\, prizes for ad
+ ults.Prizes include 8-inch Strikemaster power auger\, aluminum snow shoes &
+  more.\nFOOD AND DRINK: Breakfast and lunch available all day. \nRAFFLE: Pr
+ eregister to be entered into $100 Gilsum Village Store gift certificate raf
+ fle. 50/50 raffle day of the event. You don't need to be present to win! \n
+ Preregistration forms available at RJ Sports\, Gilsum Village Store and Sum
+ mer Sports of Keene.\nPresented by S.A.L. Squadron 85 Gilsum and US Army Co
+ rps of Engineers.\nSponsored by Strikemaster\, RJ Sports\, Gilsum Village S
+ tore and Summer Sports of Keene.
+LAST-MODIFIED:20100228T090335Z
+LOCATION:Surry Mountain Dam\, Surry\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ice Fishing Derby
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100228T200000Z
+DTEND:20100228T220000Z
+DTSTAMP:20111206T175451Z
+UID:5qraqc7ib15md251obn1fmvo9s@google.com
+CREATED:20100214T223328Z
+DESCRIPTION:Meet the candidates for local offices in Gilsum\, including Sel
+ ectman\, Town Clerk\, etc.
+LAST-MODIFIED:20100228T090335Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Meet the Candidates
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100205T233000Z
+DTEND:20100206T003000Z
+DTSTAMP:20111206T175451Z
+UID:evhmp5s3a0ifttau69olja6h04@google.com
+CREATED:20100123T232609Z
+DESCRIPTION:We'll be showing the animated movie UP! \nAdmission is Free!  \
+ nRefreshments offered by the Parent Teacher Committee as a fund raiser. All
+  welcome!
+LAST-MODIFIED:20100228T090335Z
+LOCATION:Community Center/Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Family Movie Night at Community Center 6:30pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100209
+DTEND;VALUE=DATE:20100210
+DTSTAMP:20111206T175451Z
+UID:s69s09tuqgsp66qlm8f33o481c@google.com
+CREATED:20100207T234902Z
+DESCRIPTION:
+LAST-MODIFIED:20100228T090335Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Election Day / Gilsum Town Meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100115T000000Z
+DTEND:20100115T010000Z
+DTSTAMP:20111206T175451Z
+UID:37612
+CLASS:PUBLIC
+CREATED:20091208T211723Z
+DESCRIPTION:
+LAST-MODIFIED:20100114T065144Z
+LOCATION:Monadnock Regional High School
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Monadnock School District Budget Public Hearing
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100110T003000Z
+DTEND:20100110T013000Z
+DTSTAMP:20111206T175451Z
+UID:69v0n5i1tlgrqqgi4omce3rhqc@google.com
+CREATED:20091222T151436Z
+DESCRIPTION:Saturday Jan 9th\, 7:30 pm at Mole Hill Theater Alstead NH. Gil
+ sum Mine Road off of Route 10 just out side of Keene. 789 Gilsum Mine Rd. C
+ orner of Ben Molelesky Rd Long Red Barn.. For more information call 352-258
+ 5 ask for Jeff.
+LAST-MODIFIED:20100114T065144Z
+LOCATION:789 Gilsum Mine Rd. Alstead\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Iron Skillet Band at Mole Hill Theatre Alstead Hill
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100309T050000Z
+DTEND:20100309T060000Z
+DTSTAMP:20111206T175451Z
+UID:9089
+CLASS:PUBLIC
+CREATED:20091208T211948Z
+DESCRIPTION:
+LAST-MODIFIED:20100114T065144Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Voting Day & Town Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100120T100000Z
+DTEND:20100120T110000Z
+DTSTAMP:20111206T175451Z
+UID:ih7jk3ka28ovgvm6o7agv5t6v0@google.com
+CREATED:20100112T143620Z
+DESCRIPTION: Wednesday\, January 20\, 2010 - Friday\, January 29\, 2010\n\n
+ Filing for School District Offices: Residents of the towns of FItzwilliam\,
+  Gilsum\, Richmond\, Roxbury\, Sullivan\, Swanzey and Troy may file for the
+  positions listed below beginning on Wednesday\, January 20\, 2010. Those i
+ nterested may file at the SAU #38 Central Office\, 600 Old Homestead Highwa
+ y\, Swanzey\, NH 03446 (603) 352-6955 x401. Office hours are 8:00 a.m. thru
+  4:00 p.m. except on Friday\, January 29\, 2010 the office will be open unt
+ il 5:00 p.m. The deadline for filing is 5:00 p.m. January 29\, 2010. RSA 66
+ 9:19. The filing fee is $1.00.\n\nSite: District SAU #38 Office
+LAST-MODIFIED:20100114T065144Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Filing Deadline for School District Offices
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100127T173000Z
+DTEND:20100127T183000Z
+DTSTAMP:20111206T175451Z
+UID:9087
+CLASS:PUBLIC
+CREATED:20091208T211723Z
+DESCRIPTION:MRHS/MS out 11:30 a.m.Elementary out 12:30 p.m.
+LAST-MODIFIED:20091224T062743Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:School Early Release
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100129
+DTEND;VALUE=DATE:20100130
+DTSTAMP:20111206T175451Z
+UID:rp81bhson9868ggeele244u6co@google.com
+CREATED:20091209T023007Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062743Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Report Card Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100409
+DTEND;VALUE=DATE:20100410
+DTSTAMP:20111206T175451Z
+UID:l019v085653art6pdktl6e9f4s@google.com
+CREATED:20091209T141936Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062743Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:No School - Conference
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100222
+DTEND;VALUE=DATE:20100227
+DTSTAMP:20111206T175451Z
+UID:20331
+CLASS:PUBLIC
+CREATED:20091208T211919Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:School Winter Vacation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20091224
+DTEND;VALUE=DATE:20091226
+DTSTAMP:20111206T175451Z
+UID:9085
+CLASS:PUBLIC
+CREATED:20091208T211219Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:School Vacation 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20091228
+DTEND;VALUE=DATE:20100102
+DTSTAMP:20111206T175451Z
+UID:20325
+CLASS:PUBLIC
+CREATED:20091208T211219Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:School Vacation 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100518T163000Z
+DTEND:20100518T173000Z
+DTSTAMP:20111206T175451Z
+UID:ubie5bf3f5hn4ja5cpg6n0bhp4@google.com
+CREATED:20091209T142038Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:School Early Release
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100318T163000Z
+DTEND:20100318T173000Z
+DTSTAMP:20111206T175451Z
+UID:9090
+CLASS:PUBLIC
+CREATED:20091208T211948Z
+DESCRIPTION:MRHS/MS out 11:30 a.m.Elementary out 12:30 p.m.
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:School Early Release
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100319
+DTEND;VALUE=DATE:20100320
+DTSTAMP:20111206T175451Z
+UID:9091
+CLASS:PUBLIC
+CREATED:20091208T211948Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:No school - Teacher Workshop
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100118
+DTEND;VALUE=DATE:20100119
+DTSTAMP:20111206T175451Z
+UID:9086
+CLASS:PUBLIC
+CREATED:20091208T211723Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:No school - Dr. Martin Luther King Jr. Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100408
+DTEND;VALUE=DATE:20100409
+DTSTAMP:20111206T175451Z
+UID:7ctbsvtsaq7vl38335vo42h6dc@google.com
+CREATED:20091209T141858Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:No Kindergarten - Conferences
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100206T140000Z
+DTEND:20100206T200000Z
+DTSTAMP:20111206T175451Z
+UID:26693
+CLASS:PUBLIC
+CREATED:20091208T211919Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062742Z
+LOCATION:Monadnock Regional High School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MRSD Deliberative Session
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091218T233000Z
+DTEND:20091219T003000Z
+DTSTAMP:20111206T175451Z
+UID:1k59tlaobt65gsc2h413vrnc18@google.com
+CREATED:20091208T215203Z
+DESCRIPTION:The NES ACCESS program at the Gilsum Elementary School is spons
+ oring a free spaghetti Dinner Friday Dec 18th @ 6:30 at the Gilsum School. 
+ The dinner is open to the public. Please bring in can goods for the local f
+ ood bank if you are able. 
+LAST-MODIFIED:20091224T062742Z
+LOCATION:Gilsum Elementary School & Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Free Spaghetti Dinner - Bring canned goods for food bank
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091204T050000Z
+DTEND:20091204T060000Z
+DTSTAMP:20111206T175451Z
+UID:9084
+CLASS:PUBLIC
+CREATED:20091208T211219Z
+DESCRIPTION:MRHS/MS - out 11:30 a.m.Elementary out 12:30 p.m.
+LAST-MODIFIED:20091224T062742Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Early Release Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100116T220000Z
+DTEND:20100116T230000Z
+DTSTAMP:20111206T175451Z
+UID:h3m545d03q7cupg2adce5ieqlc@google.com
+CREATED:20091222T151733Z
+DESCRIPTION:Saturday Jan16th Mole Hill Theater TV Show live with a studio a
+ udience.. 5:00 PM Pot Luck 4:00 to 5:00) 4 Bands. Opening act will be (Card
+ igan MT Blue Grass Band) Iron Skillet Band\, Birch Benders Blue Grass Band\
+ , The Rise Blue Grass/Appellation.. Radio and TV personality Cuzin Issac yo
+ ur host for the evening..\n \nMole Hill Theater Alstead NH.. Gilsum Mine Ro
+ ad off of Route 10 just out side of Keene. 789 Gilsum Mine Rd. Corner of Be
+ n Molelesky Rd Long Red Barn
+LAST-MODIFIED:20091224T062741Z
+LOCATION:Mole Hill Theatre\, 789 Gilsum Mine Road\, Alstead\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Bluegrass Bands & Pot Luck 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100614
+DTEND;VALUE=DATE:20100615
+DTSTAMP:20111206T175451Z
+UID:0iqkgttu76tgf5b7r1jlntfsb4@google.com
+CREATED:20091209T142223Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062741Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Last Day of School (subject to snow days)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100409
+DTEND;VALUE=DATE:20100410
+DTSTAMP:20111206T175451Z
+UID:je386jm8dd192ohfrq50pp50j4@google.com
+CREATED:20091209T141957Z
+DESCRIPTION:
+LAST-MODIFIED:20091224T062741Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kindergarten Registration Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091129T163000Z
+DTEND:20091129T183000Z
+DTSTAMP:20111206T175451Z
+UID:7u8t0npsu2ls71on0d9hk5vif4@google.com
+CREATED:20091031T161416Z
+DESCRIPTION:Enjoy free refreshments\, Christmas carols and grab bags for ch
+ ildren! See Santa and join the tree lighting ceremony at the frog pond star
+ ting at 11:30 am. Kids - Word from the North Pole is that Santa may arrive 
+ at noon! Grab bags for children provided. Food includes hot dogs\, hamburge
+ rs\, egg nog and more\, sponsored by the Gilsum Village Store as a customer
+  appreciation event.
+LAST-MODIFIED:20091201T083850Z
+LOCATION:The frog pond at the intersection of Route 10 and Main Street\, Gi
+ lsum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Xmas Tree Lighting and Party
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20091110T183000
+DTEND;TZID=America/New_York:20091110T193000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20091215T233000Z;BYDAY=TU
+DTSTAMP:20111206T175451Z
+UID:07n60o2doum10aq76ulnmbgb20@google.com
+CREATED:20091110T023208Z
+DESCRIPTION:Taught by Kary MacNeil of Gilsum. Classes are $10 and you don’t
+  have to be a member to participate. Come experience the fun! Wear comforta
+ ble clothes (no shoes ~ you don’t have to show your belly!).\n\nMiddle East
+ ern Dance\, often referred to as Bellydance\, is a wonderful form of moveme
+ nt\; containing within its expression a multitude of benefits. The isolated
+  movements of the hips\,ribcage\, and arms makes this dance not only sensua
+ l and exciting\, but also offers a truly beneficial and unique workout!\n\n
+ \n\n 
+LAST-MODIFIED:20091201T083850Z
+LOCATION:Gilsum Elementary School and Community Center
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Bellydancing class
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091121T143000Z
+DTEND:20091121T190000Z
+DTSTAMP:20111206T175451Z
+UID:aqjmc292kj98ok0f2pmci9us0o@google.com
+CREATED:20091115T205924Z
+DESCRIPTION:
+LAST-MODIFIED:20091201T083849Z
+LOCATION:Gilsum Public Library
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Holiday Book Sale 9:30am - 2:00pm at Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091031T210000Z
+DTEND:20091031T230000Z
+DTSTAMP:20111206T175451Z
+UID:3bge4tqfs3lnud4msdil2vm4mo@google.com
+CREATED:20091026T002721Z
+DESCRIPTION:
+LAST-MODIFIED:20091112T091901Z
+LOCATION:Main Street\, Gilsum Village
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Trick or Treating in Gilsum Village
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091031T230000Z
+DTEND:20091031T233000Z
+DTSTAMP:20111206T175451Z
+UID:17kmcl2pusit02k4ifchjj1n3g@google.com
+CREATED:20091026T002735Z
+DESCRIPTION:
+LAST-MODIFIED:20091112T091901Z
+LOCATION:Starts on Main Street in front on Historical Society
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Halloween Parade in Gilsum Village
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091007T133000Z
+DTEND:20091007T200000Z
+DTSTAMP:20111206T175451Z
+UID:8v1sem12s06jf41524f81gsads@google.com
+CREATED:20090927T204951Z
+DESCRIPTION:All seniors welcome. Lunch at Joy Wah in Bellows Falls. Meet at
+  9:30 at the Gilsum Congregational Church\, Main St. Gilsum to car pool. \n
+ \nFor more info or if you need a ride call Edie at 352-4288\; Betty 352-620
+ 8 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210558Z
+LOCATION:Saint Gauden's Cornish\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Seniors: St. Gauden's trip
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091104T170000Z
+DTEND:20091104T200000Z
+DTSTAMP:20111206T175451Z
+UID:j1d80a698jcu44p56r04quk8jk@google.com
+CREATED:20090927T205153Z
+DESCRIPTION:Special Thanksgiving dinner. All seniors welcome.\n\nFor more i
+ nfo or if you need a ride call Edie at 352-4288\; Betty 352-6208 or Polly 3
+ 57-2710. 
+LAST-MODIFIED:20090927T210549Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Dinner
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091203T170000Z
+DTEND:20091203T190000Z
+DTSTAMP:20111206T175451Z
+UID:k108etkrs3hq0dcr171dfes1sg@google.com
+CREATED:20090927T205227Z
+DESCRIPTION:Raost beef dinner will be provided. Bring other dishes to go wi
+ th it. Bring cookies for a cookie swap. Bring a wrapped gift for Yankee swa
+ p. All seniors welcome.\n \nFor more info or if you need a ride call Edie a
+ t 352-4288\; Betty 352-6208 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210535Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Xmas Party at Gilsum Congregational Church
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100106T170000Z
+DTEND:20100106T190000Z
+DTSTAMP:20111206T175451Z
+UID:3jda10td43co78qncnf3hittgs@google.com
+CREATED:20090927T205452Z
+DESCRIPTION:Bring photos of Gilsum. Brign chowder or bread or dessert. All 
+ seniors welcome.\n\nFor more info or if you need a ride call Edie at 352-42
+ 88\; Betty 352-6208 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210523Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100203T161500Z
+DTEND:20100203T191500Z
+DTSTAMP:20111206T175451Z
+UID:37lgahjjvic69u74g5uecog8t0@google.com
+CREATED:20090927T205758Z
+DESCRIPTION:Trip to Olive Garden restaurant in Keene. Meet at the church to
+  car pool. All seniors welcome.\n\nFor more info or if you need a ride call
+  Edie at 352-4288\; Betty 352-6208 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210515Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Sweetheard Dinner
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100303T170000Z
+DTEND:20100303T190000Z
+DTSTAMP:20111206T175451Z
+UID:j2k1ree9vqg49v17lnkgc85d0c@google.com
+CREATED:20090927T205933Z
+DESCRIPTION:Corned beef and cabbage dinner with Irish soda bread. Bingo gam
+ e follows. Bring items for prizes. All seniors welcome.\n\nFor more info or
+  if you need a ride call Edie at 352-4288\; Betty 352-6208 or Polly 357-271
+ 0. 
+LAST-MODIFIED:20090927T210506Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart St. Patrick's Day dinner
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100407T160000Z
+DTEND:20100407T170000Z
+DTSTAMP:20111206T175451Z
+UID:e8db1j8aq3eo1gfk8qiubbvasg@google.com
+CREATED:20090927T210225Z
+DESCRIPTION:Pot luck dinner followed by games. All seniors welcome. \n\nFor
+  more info or if you need a ride call Edie at 352-4288\; Betty 352-6208 or 
+ Polly 357-2710. 
+LAST-MODIFIED:20090927T210450Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart pot luck
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100505T130000Z
+DTEND:20100505T200000Z
+DTSTAMP:20111206T175451Z
+UID:oj7up4q4d2r72kenqrchf2na6o@google.com
+CREATED:20090927T210107Z
+DESCRIPTION:Trip to Billings Farm in Woodstock\, VT. We will be eating at Q
+ ueechee Gorge. Meet at the church at 9:00 am to car pool. All seniors welco
+ me. \n\nFor more info or if you need a ride call Edie at 352-4288\; Betty 3
+ 52-6208 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210441Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Trip to Billings Farm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100602T143000Z
+DTEND:20100602T153000Z
+DTSTAMP:20111206T175451Z
+UID:bh3pdpdqebl0lpffnte5v85fvo@google.com
+CREATED:20090927T210242Z
+DESCRIPTION:Boat ride on Lake Sunapee. Meet at the church at 10:30 am to ca
+ r pool. All seniors welcome. \n\nFor more info or if you need a ride call E
+ die at 352-4288\; Betty 352-6208 or Polly 357-2710. 
+LAST-MODIFIED:20090927T210433Z
+LOCATION:Gilsum Congregational Church\, Main Street\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Lake Sunapee Trip
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20091207
+DTEND;VALUE=DATE:20091208
+DTSTAMP:20111206T175451Z
+UID:n8n1kvkmt747h4rer87h6bk7ds@google.com
+CREATED:20090522T150522Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T150549Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:7pm Library Book Club - The Double Bind by Chris Bohjalian & The Gr
+ eat Gatsby by F. Scott Fitzgerald
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090706T230000Z
+DTEND:20090707T000000Z
+DTSTAMP:20111206T175451Z
+UID:smvvgkqnu44o182jo4qb0nl5ag@google.com
+CREATED:20090522T133020Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133942Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - Angels & Demons by Dan Brown
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090803T230000Z
+DTEND:20090804T000000Z
+DTSTAMP:20111206T175451Z
+UID:sr8pet6kdguj670b8kh9g1elf0@google.com
+CREATED:20090522T133142Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133922Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - The Shack by William P. Young
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090914T230000Z
+DTEND:20090915T000000Z
+DTSTAMP:20111206T175451Z
+UID:8ul2urhhu9qj8bmcqq98j5l1h0@google.com
+CREATED:20090522T133204Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133902Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - The Guersney Literary Potato Peel Society by Ma
+ ry Ann Shaffer &Annie Barrows
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091005T230000Z
+DTEND:20091006T000000Z
+DTSTAMP:20111206T175451Z
+UID:slgohggt9p0p5453s5frgv3je8@google.com
+CREATED:20090522T133259Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133842Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - Perley by Sheila Swett Thompson
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091103T000000Z
+DTEND:20091103T010000Z
+DTSTAMP:20111206T175451Z
+UID:9fdv0en5m6o1bi2sq40gepjmsg@google.com
+CREATED:20090522T133330Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133823Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - The Autobiography of a Yogi by Paramahansa Yoga
+ nanda
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100202T000000Z
+DTEND:20100202T010000Z
+DTSTAMP:20111206T175451Z
+UID:13v70jrfm9gv27mu7pfde0j3mk@google.com
+CREATED:20090522T133542Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133729Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - The Secret Life of Bees by Sue Monk Kidd
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100105T000000Z
+DTEND:20100105T010000Z
+DTSTAMP:20111206T175451Z
+UID:ld4nr7n77ag2nihq19cvbiqgps@google.com
+CREATED:20090522T133516Z
+DESCRIPTION:
+LAST-MODIFIED:20090522T133709Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Library Book Club - Nineteen Minutes by Jodi Picault
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090504T223000Z
+DTEND:20090504T233000Z
+DTSTAMP:20111206T175451Z
+UID:1etnthl6jcju8sv5kjcnif6fv4@google.com
+CREATED:20090426T225228Z
+DESCRIPTION:
+LAST-MODIFIED:20090426T225250Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Plant Swap! 6:30 pm at the Church
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090520T220000Z
+DTEND:20090520T230000Z
+DTSTAMP:20111206T175451Z
+UID:inct0hah64mundguds78ad7j3o@google.com
+CREATED:20090425T154956Z
+DESCRIPTION:all welcome first meeting  please become involved 
+LAST-MODIFIED:20090425T155058Z
+LOCATION:16 main street Clark - Husted house
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Old Home Day committee meeting 6pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090616T143000Z
+DTEND:20090616T153000Z
+DTSTAMP:20111206T175451Z
+UID:2j5qt1nr4c45isv79bjgg0cd4g@google.com
+CREATED:20090424T112019Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T112019Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090609T143000Z
+DTEND:20090609T153000Z
+DTSTAMP:20111206T175451Z
+UID:g9cm8s7k4j9mi7ii3i5h8terjc@google.com
+CREATED:20090424T112009Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T112009Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090602T143000Z
+DTEND:20090602T153000Z
+DTSTAMP:20111206T175451Z
+UID:regkh2rmk1g9ec4lcn0mkqnimk@google.com
+CREATED:20090424T111957Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111957Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090526T143000Z
+DTEND:20090526T153000Z
+DTSTAMP:20111206T175451Z
+UID:o6njtovr5lcg977vk16oele24s@google.com
+CREATED:20090424T111941Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111941Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090520T180000Z
+DTEND:20090520T190000Z
+DTSTAMP:20111206T175451Z
+UID:9n3fb4ok3r44bt2gpkq6irq048@google.com
+CREATED:20090424T111925Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111925Z
+LOCATION:Needlework\, Gilsum Public Library
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Drop-In Needlework\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090519T143000Z
+DTEND:20090519T153000Z
+DTSTAMP:20111206T175451Z
+UID:6homedsu918i1ki5as1g10n99g@google.com
+CREATED:20090424T111854Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111854Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090512T143000Z
+DTEND:20090512T153000Z
+DTSTAMP:20111206T175451Z
+UID:g5vl0h5hap1vst488jrek04mlo@google.com
+CREATED:20090424T111842Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111842Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090505T143000Z
+DTEND:20090505T153000Z
+DTSTAMP:20111206T175451Z
+UID:vdo4mnpp5t8mmogkf7oedi532k@google.com
+CREATED:20090424T111828Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111828Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time\, Glsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090428T143000Z
+DTEND:20090428T153000Z
+DTSTAMP:20111206T175451Z
+UID:ed5hosgq6mpjm3h00md78ej9j0@google.com
+CREATED:20090424T111808Z
+DESCRIPTION:
+LAST-MODIFIED:20090424T111808Z
+LOCATION:Gilsum Public Library
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Story Time for preschoolers at Gilsum Public Library
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20090719
+DTEND;VALUE=DATE:20090726
+DTSTAMP:20111206T175451Z
+UID:btcr9rbl6gc072dfoerdqcnprc@google.com
+CREATED:20090420T012126Z
+DESCRIPTION:The Sustainability Project in collaboration with MorningSun Min
+ dful Living Initiative is hosting a Mindfulness Adventure Camp in the Emers
+ on Brook Forest. Three programs run simultaneously for ages  8-12\, 13-18\,
+  and for parents with young children.  MorningSun seeks to provide a unique
+  learning environment based on sustainable living and a daily practice of m
+ indfulness. For details visit www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T012127Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mindfulness Adventure Camp at Emerson Brook
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091024T213000Z
+DTEND:20091024T233000Z
+DTSTAMP:20111206T175451Z
+UID:7jl47ja9tfccqd7e4s72spo198@google.com
+CREATED:20090420T011959Z
+DESCRIPTION:October 24th\, Saturday\, 5:30 pm Volunteer Appreciation Dinner
+  in the Emerson Brook Forest. Details at www.emersonbrookforest.org. 
+LAST-MODIFIED:20090420T011959Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Volunteer Appreciation Dinner at Emerson Brook Forest
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20091003
+DTEND;VALUE=DATE:20091005
+DTSTAMP:20111206T175451Z
+UID:bvsqc243mkcbh1qomdv86ocvsc@google.com
+CREATED:20090420T011857Z
+DESCRIPTION:Help us celebrate the growing season and the anticipation of sn
+ ow. Schedule of events to be announced. For details visit www.emersonbrookf
+ orest.org.
+LAST-MODIFIED:20090420T011857Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Open House: Emerson Brook Forest
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090829T190000Z
+DTEND:20090829T220000Z
+DTSTAMP:20111206T175451Z
+UID:q8rqgq8colmgtj6r66mqle3cm0@google.com
+CREATED:20090420T011748Z
+DESCRIPTION:Join Dave and Jenny Wichland for a mycological landscape worksh
+ op\, Chanterelle foray\, and potluck in the Emerson Brook Forest.  Sliding 
+ scale fee $35-45. For details visit www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T011748Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mushrooms in the Garden and Beyond Workshop
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090823T140000Z
+DTEND:20090823T180000Z
+DTSTAMP:20111206T175451Z
+UID:q8s8lpmdk6rb6e7snt7kqcnkg4@google.com
+CREATED:20090420T011547Z
+DESCRIPTION:Compass and Map Orienteering with Tom Sintros. Learn how to saf
+ ely find your way in the natural environment. For all age groups\, family p
+ articipation encouraged. Bring a bag lunch\, snacks\, hats\, drinking water
+  and sunscreen. Suggested donation $5-10. No one turned away for lack of fu
+ nds. Details at www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T011607Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Compass and Map Orienteering 10 am - 2 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090718T140000Z
+DTEND:20090718T180000Z
+DTSTAMP:20111206T175451Z
+UID:23i3qrqio3nqu0fqjl1hh63sug@google.com
+CREATED:20090420T011423Z
+DESCRIPTION:Compass and Map Orienteering with Tom Sintros. Learn how to saf
+ ely find your way in the natural environment. For all age groups\, family p
+ articipation encouraged. Bring a bag lunch\, snacks\, hats\, drinking water
+  and sunscreen. Suggested donation $5-10. No one turned away for lack of fu
+ nds. www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T011423Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Compass and Map Orienteering
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090628T120000Z
+DTEND:20090628T160000Z
+DTSTAMP:20111206T175451Z
+UID:a0hf94jgtg83o4i0lvrbglhcqk@google.com
+CREATED:20090420T011240Z
+DESCRIPTION:Healthy Foods Breakfast at the Gilsum Rock Swap at the Gilsum C
+ ommunity Center. Enjoy good company and a healthy cuisine\; learn about loc
+ al efforts to encourage a healthy consciousness for earth-friendly produced
+  food within our region.
+LAST-MODIFIED:20090420T011256Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Healthy Foods Breakfast at the Rock Swap 8 am - 12 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090627T120000Z
+DTEND:20090627T160000Z
+DTSTAMP:20111206T175451Z
+UID:vc910u6b26p7l3p1bbhuhag70c@google.com
+CREATED:20090420T011214Z
+DESCRIPTION:Healthy Foods Breakfast at the Gilsum Rock Swap at the Gilsum C
+ ommunity Center. Enjoy good company and a healthy cuisine\; learn about loc
+ al efforts to encourage a healthy consciousness for earth-friendly produced
+  food within our region.
+LAST-MODIFIED:20090420T011214Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Healthy Foods Breakfast at the Rock Swap
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090628T160000Z
+DTEND:20090628T180000Z
+DTSTAMP:20111206T175451Z
+UID:jca2sg8ptdira7fta1ctbbgtvc@google.com
+CREATED:20090420T010852Z
+DESCRIPTION:The annual chicken barbeque dinner\, sponsored by the Sons of t
+ he America Legion at the Gilsum Rock Swap includes half a chicken\, drink\,
+  dessert\, cole slaw and more. Tickets on sale at the Information Booth the
+  day of the show or at the dinner.
+LAST-MODIFIED:20090420T011031Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Chicken Barbeque at the Rock Swap 12 pm - 2:00 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090628T120000Z
+DTEND:20090628T200000Z
+DTSTAMP:20111206T175451Z
+UID:41sgvhgfnh7g6cnttt89rgke04@google.com
+CREATED:20090420T010826Z
+DESCRIPTION:Buy or swap with more than 60 dealers. Our 45th year! For detai
+ ls click on the Rock Swap page at www.gilsum.org.
+LAST-MODIFIED:20090420T010826Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Rock Swap & Mineral Show
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090627T210000Z
+DTEND:20090627T230000Z
+DTSTAMP:20111206T175451Z
+UID:g4ttiaa9862l1de04majq43eb4@google.com
+CREATED:20090420T010623Z
+DESCRIPTION:Annual ham and bean dinner at the Rock Swap includes all you ca
+ n eat home made pies! Tickets available at the show information booth the d
+ ay of the show or at the door. Two seatings. Buy early to get a seat!
+LAST-MODIFIED:20090420T010745Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ham and Bean Dinner 5:00 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090627T120000Z
+DTEND:20090627T220000Z
+DTSTAMP:20111206T175451Z
+UID:0mdo5njst0i1e5b5f4si0u22ko@google.com
+CREATED:20090420T010602Z
+DESCRIPTION:Buy or swap with more than 60 dealers. Our 45th year! For detai
+ ls click on the Rock Swap page at www.gilsum.org.
+LAST-MODIFIED:20090420T010602Z
+LOCATION:Gilsum Elementary School\, Route 10
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gilsum Rock Swap & Mineral Show
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090516T200000Z
+DTEND:20090517T200000Z
+DTSTAMP:20111206T175451Z
+UID:67oel3jhi6sggu0qpqbta2t7fc@google.com
+CREATED:20090420T010143Z
+DESCRIPTION:Emerson Brook hosts a 24-hour Bioblitz with herpetologist Kenny
+  Barnett and friends. Spend one full day learning the natural history of ou
+ r beloved Emerson Brook Forest.\nwww.emersonbrookforest.org
+LAST-MODIFIED:20090420T010259Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Bio Blitz at Emerson Brook Forest
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090607T130000Z
+DTEND:20090607T190000Z
+DTSTAMP:20111206T175451Z
+UID:6u61q1pmb82korekes5cu0hkgs@google.com
+CREATED:20090420T005652Z
+DESCRIPTION:Work Days-Join in the playful work of creating a wheelchair acc
+ essible center in the Emerson Brook Forest. If you have them\, bring your f
+ avorite tool and work gloves. If you aren't able to do the physical aspects
+  of the day\, come anyway\, and share your creative self-- music\, poetry a
+ nd visions for a sustainable future! Work in the Emerson Brook Forest is al
+ ways a social event! Invite your educational\, civic or religious group to 
+ participate in this satisfying ongoing effort. Other planned workdays from 
+ 9 am -3 pm will be held on  Sundays\,  August 2nd\, and September 13th.\nFo
+ r more details visit www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T010029Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Forest Work Day 9 am - 6 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090802T130000Z
+DTEND:20090802T190000Z
+DTSTAMP:20111206T175451Z
+UID:tagiuheos6ku84p2nspttu576c@google.com
+CREATED:20090420T005818Z
+DESCRIPTION:Work Days-Join in the playful work of creating a wheelchair acc
+ essible center in the Emerson Brook Forest. If you have them\, bring your f
+ avorite tool and work gloves. If you aren't able to do the physical aspects
+  of the day\, come anyway\, and share your creative self-- music\, poetry a
+ nd visions for a sustainable future! Work in the Emerson Brook Forest is al
+ ways a social event! Invite your educational\, civic or religious group to 
+ participate in this satisfying ongoing effort. Other planned workdays from 
+ 9 am -3 pm will be held on  Sunday\,  September 13th.\nFor more details vis
+ it www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T005959Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Work Day 9 am - 6 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090913T130000Z
+DTEND:20090913T190000Z
+DTSTAMP:20111206T175451Z
+UID:i1ppoeounbuk8gsrnla3ibiat4@google.com
+CREATED:20090420T005914Z
+DESCRIPTION:Work Days-Join in the playful work of creating a wheelchair acc
+ essible center in the Emerson Brook Forest. If you have them\, bring your f
+ avorite tool and work gloves. If you aren't able to do the physical aspects
+  of the day\, come anyway\, and share your creative self-- music\, poetry a
+ nd visions for a sustainable future! Work in the Emerson Brook Forest is al
+ ways a social event! Invite your educational\, civic or religious group to 
+ participate in this satisfying ongoing effort. For more details visit www.e
+ mersonbrookforest.org.
+LAST-MODIFIED:20090420T005943Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Forest Work Day 9 am - 6 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090516T130000Z
+DTEND:20090516T220000Z
+DTSTAMP:20111206T175451Z
+UID:j40cikectte28hcu5o0m0pf4tk@google.com
+CREATED:20090420T005558Z
+DESCRIPTION:Work Days-Join in the playful work of creating a wheelchair acc
+ essible center in the Emerson Brook Forest. If you have them\, bring your f
+ avorite tool and work gloves. If you aren't able to do the physical aspects
+  of the day\, come anyway\, and share your creative self-- music\, poetry a
+ nd visions for a sustainable future! Work in the Emerson Brook Forest is al
+ ways a social event! Invite your educational\, civic or religious group to 
+ participate in this satisfying ongoing effort. Other planned workdays from 
+ 9 am -3 pm will be held on  Sundays\, June 7th\, August 2nd\, and September
+  13th.\nFor more details visit www.emersonbrookforest.org.
+LAST-MODIFIED:20090420T005634Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Work Day 9 am - 6 pm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090426T130000Z
+DTEND:20090426T190000Z
+DTSTAMP:20111206T175451Z
+UID:jvdclr6abb65ltfrhoafa6d2tk@google.com
+CREATED:20090420T005520Z
+DESCRIPTION:Work Days-Join in the playful work of creating a wheelchair acc
+ essible center in the Emerson Brook Forest. If you have them\, bring your f
+ avorite tool and work gloves. If you aren't able to do the physical aspects
+  of the day\, come anyway\, and share your creative self-- music\, poetry a
+ nd visions for a sustainable future! Work in the Emerson Brook Forest is al
+ ways a social event! Invite your educational\, civic or religious group to 
+ participate in this satisfying ongoing effort. Other planned workdays from 
+ 9 am -3 pm will be held on  Saturday\, May 16th and Sundays\, June 7th\, Au
+ gust 2nd\, and September 13th.\nFor more details visit www.emersonbrookfore
+ st.org.
+LAST-MODIFIED:20090420T005520Z
+LOCATION:Emerson Brook Forest
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Work Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090430T220000Z
+DTEND:20090502T000000Z
+DTSTAMP:20111206T175451Z
+UID:3eh8usg4mnep6scfsj65vhnkqk@google.com
+CREATED:20090420T004843Z
+DESCRIPTION:The Monadnock Community Gardening and Seed Saving Initiative (M
+ CGSSI) Bringing People Together to Grow Local Food. Topics include: Communi
+ ty Gardens\, Garden Sharing\, Produce Sharing\, Tool Banks and Gardening Cl
+ ubs. Monthly meetings\, year round. Drop-ins welcome. "Turning Your Lawn in
+ to a Garden" with Marcia Winter\, 32 Royal Ave. Keene. 
+LAST-MODIFIED:20090420T005246Z
+LOCATION:32 Royal Ave. Keene.
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Monadnock Community Gardening and Seed Saving Initiative Meetin
+ g
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090425T150000Z
+DTEND:20090425T200000Z
+DTSTAMP:20111206T175451Z
+UID:r4g7cp0v7uvfn8j8h0ekmbmitc@google.com
+CREATED:20090420T005050Z
+DESCRIPTION:Join The Sustainability Project at the Monadnock Earth Festival
+  on Railroad Square in Keene. This year’s theme is “Our Web of Life\,” -- s
+ omething near and dear to TSP.  Raffle: Zapino Electric Scooter to benefit 
+ The Sustainability Project. tickets $25 each. Drawing takes place at 4 pm.
+LAST-MODIFIED:20090420T005051Z
+LOCATION:Railroad Square\, Main Street\, Keene
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Monadnock Earth Festival 
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090421T230000Z
+DTEND:20090422T000000Z
+DTSTAMP:20111206T175451Z
+UID:ou8apo3ob1ei9c43ins4t0gprs@google.com
+CREATED:20090419T153356Z
+DESCRIPTION:Meet the author of "Perley\, The True Story of a New Hampshire 
+ Hermit." Sponsored by the Gilsum Historical Society. Admission is free!
+LAST-MODIFIED:20090419T153356Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Book signing with Sheila Swett Thompson
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20090829
+DTEND;VALUE=DATE:20090830
+DTSTAMP:20111206T175451Z
+UID:8cdkoipnp34smoieqj6h84n020@google.com
+CREATED:20090417T003051Z
+DESCRIPTION:For details or to help plan this event contact Sarah Husted at 
+ 355-2242.
+LAST-MODIFIED:20090417T003051Z
+LOCATION:Main Street
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Old Home Day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090828T220000Z
+DTEND:20090829T010000Z
+DTSTAMP:20111206T175451Z
+UID:5sjfd077rr716r2r4en169voj8@google.com
+CREATED:20090417T003000Z
+DESCRIPTION:
+LAST-MODIFIED:20090417T003000Z
+LOCATION:Gilsum Elementary School & Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Old Home Day - Pot Luck Dinner
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090323T221500Z
+DTEND:20090323T233000Z
+DTSTAMP:20111206T175451Z
+UID:2m12gkiicmd1amm4350ieg7g1s@google.com
+RECURRENCE-ID:20090323T221500Z
+CREATED:00001231T000000Z
+DESCRIPTION:Open to all children. Free! Sponsored by the Gilsum Recreation 
+ Commission.
+LAST-MODIFIED:20090316T200513Z
+LOCATION:Gilsum Elementary School and Community Center
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:No Youth Basketball this week
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090314T170000Z
+DTEND:20090314T190000Z
+DTSTAMP:20111206T175451Z
+UID:f21llan8nktjstb7puopqvft84@google.com
+CREATED:20090305T022901Z
+DESCRIPTION:Town meeting includes voting on town warrant - including the to
+ wn budget. This meeting normally takes place on Tuesdays but was moved this
+  year to the following Saturday so that voting from the March 10 elections 
+ would be finalized before town meeting begins.
+LAST-MODIFIED:20090305T022901Z
+LOCATION:Gilsum Elementary School & Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Town Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20090310
+DTEND;VALUE=DATE:20090311
+DTSTAMP:20111206T175451Z
+UID:3819evtjtk5eq05thfcud10m74@google.com
+CREATED:20090305T022303Z
+DESCRIPTION:Voting for town officers and school district warrant. NOTE: Vot
+ ign at polls will NOT be followed by town meeting this year. The annual Gil
+ sum town meeting\, which includes voting for the town warrant and budget\, 
+ will take place on Saturday\, March 10 at 1:00 pm.
+LAST-MODIFIED:20090305T022630Z
+LOCATION:Gilsum Elementary School & Community Center
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Voting Day - Town and School District
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20090302T181500
+DTEND;TZID=America/New_York:20090302T193000
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20090330T221500Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:2m12gkiicmd1amm4350ieg7g1s@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:Open to all children. Free! Sponsored by the Gilsum Recreation 
+ Commission.
+LAST-MODIFIED:20090305T022216Z
+LOCATION:Gilsum Elementary School and Community Center
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Youth Basketball
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20090211T181500
+DTEND;TZID=America/New_York:20090211T191500
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20090218T231500Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:vjmi6o2cv41nc4mva5sneflf6o@google.com
+CREATED:20090211T015554Z
+DESCRIPTION:This six-week class meets every Wednesday and will focus on mov
+ ement\, improving flexibility and strength. This is a great program for tho
+ se who are new to Yoga and are looking for a gentle form of exercize. Cindy
+  Sterling\, instructor. Fee is by donation. Suggested $5. Open to all. Sess
+ ion starts Feb 4 and runs through March 18. For details call Margo at 352-5
+ 065. Sponsored by the Gilsum Recreation Committee. \n
+LAST-MODIFIED:20090211T015920Z
+LOCATION:Gilsum Elementary School/Community Center
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Yoga! (click for details)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20090304T181500
+DTEND;TZID=America/New_York:20090304T191500
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20090318T221500Z;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:kbqfo5c0l6olqstm7s09973tfs@google.com
+CREATED:20090211T015847Z
+DESCRIPTION:This six-week class meets every Wednesday and will focus on mov
+ ement\, improving flexibility and strength. This is a great program for tho
+ se who are new to Yoga and are looking for a gentle form of exercize. Cindy
+  Sterling\, instructor. Fee is by donation. Suggested $5. Open to all. Sess
+ ion starts Feb 4 and runs through March 18. For details call Margo at 352-5
+ 065. Sponsored by the Gilsum Recreation Committee. 
+LAST-MODIFIED:20090211T015847Z
+LOCATION:Gilsum Elementary School & Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Yoga! (Click for Details)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090307T123000Z
+DTEND:20090307T190000Z
+DTSTAMP:20111206T175451Z
+UID:j46jnqc9lknb94199ldt6sjr70@google.com
+CREATED:20090211T014205Z
+DESCRIPTION:Registration begins at 7:30 a.m. Adults: $10\, Youth $3\, child
+ ren under 12 FREE. Prizes for longest pickerel and longest perch will given
+  for each age group\, 1st\, 2nd and 3rd place. Bait available at the event.
+  Raffle! All fish must be registered by 2:00 pm. Prize drawings immediately
+  follow.\n\nBreakfast and lunch served! \n\n50/50 raffle prizes:Strike Mast
+ er power auger\, aluminum snow shoes and dozens of other prizes. You don't 
+ need to be present to win.\n\n11:00 am: A turkey calling demonstration by m
+ aster caller Gary Coburn.\n12:00 pm Fish cleaning and cooking demonstration
+  by retired conservation officer Claude Dumont.\n\nPre registrer at the Gil
+ sum Village Store\, R.J. Sports\, or Summer Sports in Keene. All pre-regist
+ rations eligible for an exclusive prize drawing for a Polar vision handheld
+  sonar unit!!!
+LAST-MODIFIED:20090211T014254Z
+LOCATION:Surry Mountain Dam\, Surry\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OPEN FISHING DERBY (Click for Details)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090128T231500Z
+DTEND:20090129T001500Z
+DTSTAMP:20111206T175451Z
+UID:s80o22lv8m1rsookh4fd958ces@google.com
+CREATED:20090121T022811Z
+DESCRIPTION:This six-week class meets every Wednesday and will focus on mov
+ ement\, improving flexibility and strength. This is a great program for tho
+ se who are new to Yoga and are looking for a gentle form of exercize. Cindy
+  Sterling\, instructor. Fee is by donation. Open to all. For details call M
+ argo at 352-5065. Sponsored by the Gilsum Recreation Committee.
+LAST-MODIFIED:20090121T023642Z
+LOCATION:Gilsum Elementary School
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Beginner Yoga\, at Gilsum Elementary School
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090117T230000Z
+DTEND:20090118T020000Z
+DTSTAMP:20111206T175451Z
+UID:sj3uhuqd77i9urpcaa11e0u7tk@google.com
+CREATED:20090111T172604Z
+DESCRIPTION:Free. Bring a dish\, meet your neighbors - and a canned good fo
+ r donation to the local food pantry!
+LAST-MODIFIED:20090111T180048Z
+LOCATION:Elementary School and Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Pot Luck at Elementary School (Free)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090207T140000Z
+DTEND:20090207T220000Z
+DTSTAMP:20111206T175451Z
+UID:tkbc7j1dv1oieojc9cttnirgec@google.com
+CREATED:20090110T151935Z
+DESCRIPTION:Gardener's fair\, cherokee blessing\, African dancing / drummin
+ g\, raffle\, speakers\, picnic and more! $7 adults\, $5 children\, $18 per 
+ family. Sponsored by the Emerson Brook Sustainability Project. For details 
+ please visit emersonbrookforest.org.
+LAST-MODIFIED:20090110T153130Z
+LOCATION:Gilsum Elementary School and Community Center 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Seed Celebration at Gilsum Elementary School and Community Center
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090121T233000Z
+DTEND:20090122T003000Z
+DTSTAMP:20111206T175451Z
+UID:6ph732alhj5f2j0qso44hngvfs@google.com
+CREATED:20090108T182852Z
+DESCRIPTION:Michael Caduto\, will perform “Kids’ Power\; Energy Alternative
+ s for Today’s Kids” at the Gilsum Elementary School on Wednesday\, January 
+ 21st at 6:30 pm.  Caduto\, Storyteller\, author and ecologist\, uses storyt
+ elling\, images\, music and participatory experiences of today’s energy tec
+ hnologies to engage his audience in the process of transforming the forces 
+ of nature into energy for everyday living.  This humorous program is full o
+ f facts and activities that reveal simple ways to harness natural sources o
+ f energy and reduce global climate change. \n\nThe program features demonst
+ rations of wind power\, solar energy and magnetic-electrical power\; indige
+ nous tales of sun and wind\; fun energy facts\; a slide show on energy issu
+ es\; the “Earthbeat” power song\; energy ideas for everyday life and curric
+ ulum connections.\n\nThis program is a collaborative effort of the Northern
+  Elementary School ACCESS Program\, The Gilsum Recreation Committee\, Green
+  Energy Options\, and The Sustainability Project.  The NES ACCESS Program s
+ erves Gilsum and Sullivan students and promotes that All Children be Cared 
+ for\, Educated\, Supported and Successful. Gilsum Recreation Committee supp
+ orts community health through recreation. Green Energy Options is a locally
+  owned\, family run Keene business\, helping to reduce utility bills\, cons
+ erve natural resources with renewable and energy efficient products and sys
+ tems. The Sustainability Project\, promotes a love of nature\, environmenta
+ l stewardship\, caring communities and ways of living that deepen our inter
+ connection with the web of life.\n\nFor more information please contact Val
+ erie Piedmont at 357-0860 or Ralph Jernberg at 352-2226 ext 217
+LAST-MODIFIED:20090108T183114Z
+LOCATION:Gilsum Elementary School and Community Center
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Michael Caduto\, story teller (All ages\; free)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081129T170000Z
+DTEND:20081129T180000Z
+DTSTAMP:20111206T175451Z
+UID:67hjthqmk2dgepcjibiupdo1bk@google.com
+CREATED:20081104T230653Z
+DESCRIPTION:Join us for the annual lighting of the Gilsum Christmas tree at
+  noon Saturday. Look for free hot dogs\, hamburgers and hot chocolate - and
+  maybe a special appearance by Santa Claus! Bring an ornament if you like a
+ nd help as we string the lights. This event is sponsored by the Gilsum VIll
+ age Store.
+LAST-MODIFIED:20081104T230653Z
+LOCATION:Frogpond\, Route 10 and Main Street
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Christmas Tree Lighting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081031T223000Z
+DTEND:20081031T233000Z
+DTSTAMP:20111206T175451Z
+UID:jhp8p3vr0rnmmq86nu3ce20dns@google.com
+CREATED:20081027T225026Z
+DESCRIPTION:Halloween Trick or Treating and Parade! The Fire truck parade b
+ egins on Main Street in front of the Historical Society at 6:30 sharp\, fol
+ lowed by cider and treats at the fire station.
+LAST-MODIFIED:20081027T225026Z
+LOCATION:Starts at 24 Main Street across from the Historical Society
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Fire Truck Parade
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081031T210000Z
+DTEND:20081031T223000Z
+DTSTAMP:20111206T175451Z
+UID:lrms3rob3rcsvsj0h158vau600@google.com
+CREATED:20081027T224938Z
+DESCRIPTION:Halloween Trick or Treating and Fire Truck Parade will be held 
+ on Friday\, October 31. Trick or treating is from 5:00 to 6:30 p.m. The fir
+ e truck parade begins on Main Street in front of the Historical Society at 
+ 6:30 sharp\, followed by cider and treats at the fire station. All children
+  are welcome!
+LAST-MODIFIED:20081027T224938Z
+LOCATION:Main Street\, Gilsum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Trick or Treat in the Village
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081017T210000Z
+DTEND:20081018T020000Z
+DTSTAMP:20111206T175451Z
+UID:oe8rfj2orh1ksd8328dng4joms@google.com
+CREATED:20081016T130533Z
+DESCRIPTION:The Sustainability Project's open house weekend launches with a
+  special event at Green Energy Options in Keene. Events include store tour 
+ (5:00)\; Introduction to The Sustainability Project and programs (6:00)\; s
+ howing of the film "Power of Community" (7:30)\; and music by Earth Colony 
+ (8:30). For more details visit The Emerson Brook Sustainability Project Web
+  site at http://www.emersonbrookforest.org/
+LAST-MODIFIED:20081016T130533Z
+LOCATION:79 Emerald Street\, Keene\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sustainability Fair
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081019T140000Z
+DTEND:20081019T180000Z
+DTSTAMP:20111206T175451Z
+UID:gs8ue0ce9laafuqqu6hvffg6c0@google.com
+CREATED:20081016T125924Z
+DESCRIPTION:Open house includes 10:00 planetary gong meditation\, 11:00 nat
+ ural history walk\, 12:00 stone soup lunch\, 1:00 Butterscotch Puppet Theat
+ re. For details and directions visit http://www.emersonbrookforest.org/.
+LAST-MODIFIED:20081016T125924Z
+LOCATION:57 Emerson Brook Drive\, Gilsum\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Emerson Brook Open House
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081018T170000Z
+DTEND:20081019T020000Z
+DTSTAMP:20111206T175451Z
+UID:a5b6cb0p2b6rrc3f7i5d9a4tn8@google.com
+CREATED:20081014T012859Z
+DESCRIPTION:Open House in the Emerson Brook Forest! Tour the first of our w
+ heelchair accessible demonstration edible gardens. Events include a scaveng
+ er hunt (1:00)\; Native American stories (2:00)\; Planetary gong meditation
+  (3:00)\; Forest walk (4:00)\; Pot Luck (5:00)\; Fire dancing and drumming 
+ (7:00) followed by a night walk and star gazing. \n\nFor directions and det
+ ails visit http://www.emersonbrookforest.org/
+LAST-MODIFIED:20081016T125638Z
+LOCATION:57 Emerson Brook Drive\, Gilsum\, NH
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Open House at Emerson Brook
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20081025
+DTEND;VALUE=DATE:20081026
+DTSTAMP:20111206T175451Z
+UID:lidnllqd8i3qftk2tbbvadb5rg@google.com
+CREATED:20081014T013044Z
+DESCRIPTION:For details visit http://www.pumpkinfestival.com/
+LAST-MODIFIED:20081014T013044Z
+LOCATION:Main Street\, Keene\, NH
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Pumpkin Festival!
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090701T130000Z
+DTEND:20090701T140000Z
+DTSTAMP:20111206T175451Z
+UID:qelh0oedgg7epg3lv5fp0kgqqk@google.com
+CREATED:20081014T010603Z
+DESCRIPTION:Field trip to St. Gauden's Historic Site in Cornish\, NH. Meet 
+ at church at 9 a.m. to car pool. Lunch at Indian Shutters\, Charlestown. Op
+ en to all seniors. For details contact Edie Hasbrouck at 352-4288.
+LAST-MODIFIED:20081014T010603Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090603T160000Z
+DTEND:20090603T170000Z
+DTSTAMP:20111206T175451Z
+UID:2r6egvhts1o0mo1juba7igtcmk@google.com
+CREATED:20081014T010415Z
+DESCRIPTION:Visit to the Historical Society of Cheshire County and Colony H
+ ouse in Keene\, followed by lunch at Thai Garden. Departs from Gilsum Congr
+ egational Church. Open to all seniors. For details contact Edie Hasbrouck a
+ t 352-4288.
+LAST-MODIFIED:20081014T010415Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090506T160000Z
+DTEND:20090506T170000Z
+DTSTAMP:20111206T175451Z
+UID:d5srdi1vm6ivp93iouv0ok1b0k@google.com
+CREATED:20081014T010241Z
+DESCRIPTION:A visit to the Swanzey Historical Museum\, departing from the C
+ hurch. The group will be eating out at the Restaurant next to Gomarlo's in 
+ Swanzey. Open to all seniors. For details contact Edie Hasbrouck at 352-428
+ 8.
+LAST-MODIFIED:20081014T010241Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090401T160000Z
+DTEND:20090401T170000Z
+DTSTAMP:20111206T175451Z
+UID:c93icje1rmdcfc7qtsnqe02ri4@google.com
+CREATED:20081014T010043Z
+DESCRIPTION:Pot luck lunch. April Fools "what's it" food. Possible speaker:
+  David Proper (TBD). Open to all seniors. For details contact Edie Hasbrouc
+ k at 352-4288.
+LAST-MODIFIED:20081014T010043Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090304T170000Z
+DTEND:20090304T180000Z
+DTSTAMP:20111206T175451Z
+UID:nl4m0alujej11hs9v703lre7e4@google.com
+CREATED:20081014T005934Z
+DESCRIPTION:St. Patrick's Day celebration. Corned beef and cabbage dinner w
+ ith Irish soda bread. Slide show of pictures of Gilsum. Open to all seniors
+ . For details contact Edie Hasbrouck at 352-4288.
+LAST-MODIFIED:20081014T005934Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090204T170000Z
+DTEND:20090204T180000Z
+DTSTAMP:20111206T175451Z
+UID:lnommfgcp4mba3arkgjg94phto@google.com
+CREATED:20081014T005824Z
+DESCRIPTION:Stone soup and bingo. Bring a can of vegetables to add to the s
+ oup! Open to all seniors. For details contact Edie Hasbrouck at 352-4288.
+LAST-MODIFIED:20081014T005824Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090107T170000Z
+DTEND:20090107T180000Z
+DTSTAMP:20111206T175451Z
+UID:rpfkldo13q8t4r7n27rblp8r50@google.com
+CREATED:20081014T005555Z
+DESCRIPTION:Soup\, chowder\, breads and dessert. Open to all seniors. For d
+ etails contact Edie Hasbrouck at 352-4288.\n\n                     
+LAST-MODIFIED:20081014T005701Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081203T170000Z
+DTEND:20081203T180000Z
+DTSTAMP:20111206T175451Z
+UID:2n61gv7dvs6m6h1ln0a2gf0a8o@google.com
+CREATED:20081014T005518Z
+DESCRIPTION:Christmas Party at church with pot-luck lunch at noon. Bring a 
+ wrapped gift for the Yankee Swap. Open to all seniors. Call Edie Hasbrouck 
+ for details at 352-4288.
+LAST-MODIFIED:20081014T005518Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081105T170000Z
+DTEND:20081105T180000Z
+DTSTAMP:20111206T175451Z
+UID:kmh9rb8t0rdsog8u18ahk527ok@google.com
+CREATED:20081014T005242Z
+DESCRIPTION:Seniors club: Potluck Thanksgiving dinner at the church. Contac
+ t Edie Hasbrouck for details at 352-4288.
+LAST-MODIFIED:20081014T005306Z
+LOCATION:Gilsum Congregational Church
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Young at Heart Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20081016T180000
+DTEND;TZID=America/New_York:20081016T193000
+RRULE:FREQ=WEEKLY;BYDAY=TH;WKST=SU
+DTSTAMP:20111206T175451Z
+UID:1qav7r9ikc0a7ta653qr7ld70g@google.com
+CREATED:20081014T004205Z
+DESCRIPTION:Jujitsu classes are open every Thursday from 6:00 -7:30 p.m. Fr
+ ee! Open to adults and children 10 and older (children must be mature enoug
+ h for instruction as no horseplay will be allowed for safety reasons). This
+  ongoing program is free. Uniforms not required\, but please wear loose clo
+ thing. Classes will be run by Jason Miller\, a black belt and with eight ye
+ ars' experience. To sign up\, contact Jason at 352-7603. Mats for this prog
+ ram were purchased by the Gilsum Recreation Committee using funds from the 
+ annual Rock Swap & Mineral Show.
+LAST-MODIFIED:20081014T004319Z
+LOCATION:Gilsum Community Center / Elementary School
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Jujitsu (Free open class)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
