@@ -1,5 +1,5 @@
 
-var RRule = require('icalendar').RRule;
+var RRule = require('../lib/icalendar').RRule;
 
 describe("RRule", function() {
     it("should parse RRULEs correctly", function() {

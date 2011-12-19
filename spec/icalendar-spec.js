@@ -3,7 +3,7 @@
 var assert = require('assert');
 var fs = require('fs');
 
-var icalendar = require('icalendar');
+var icalendar = require('../lib/icalendar');
 
 // NB: Ported to jasmine from expresso, hence the strange layout
 // TODO: Make this look more like a jasmine spec
