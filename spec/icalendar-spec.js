@@ -57,6 +57,8 @@ describe("iCalendar", function() {
             icalendar.parse_value('TIME', '173216').valueOf());
         assert.equal((new Date(2011,10,9,17,32,16)).valueOf(),
             icalendar.parse_value('DATE-TIME', '20111109T173216').valueOf());
+        assert.equal(60*60*24*7 + 60*60*24*2 + 60*60*3 + 60*4 + 5,
+            icalendar.parse_value('DURATION', 'P1W2DT3H4M5S'));
 
         assert.deepEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [1,0]},
             icalendar.parse_value('RECUR', 'FREQ=YEARLY;BYMONTH=11;BYDAY=1SU').valueOf());
