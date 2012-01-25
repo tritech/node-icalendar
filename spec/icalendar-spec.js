@@ -51,8 +51,11 @@ describe("iCalendar", function() {
         assert.equal('\u0000\u0001\u0002\u0004\u0005\u0006',
             icalendar.parse_value('BINARY', 'AAECBAUG'));
 
-        assert.equal((new Date(2011,10,9)).valueOf(),
-            icalendar.parse_value('DATE', '20111109').valueOf());
+        expect(icalendar.parse_value('DATE', '20111109'))
+            .toEqual(new Date(2011,10,9));
+        expect(icalendar.parse_value('DATE', '20111109').date_only)
+            .toEqual(true);
+
         assert.equal((new Date(0,0,0,17,32,16)).valueOf(),
             icalendar.parse_value('TIME', '173216').valueOf());
 
