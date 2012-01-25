@@ -10,7 +10,7 @@ var icalendar = require('../lib/icalendar');
 describe("iCalendar", function() {
     it('formats icalendar data types', function() {
         assert.equal('AAECBAUG', icalendar.format_value('BINARY',
-            '\u0000\u0001\u0002\u0004\u0005\u0006'));
+            new Buffer('\u0000\u0001\u0002\u0004\u0005\u0006')));
 
         var dt = new Date(2011,10,9,17,32,16);
         var dt2 = new Date(2011,10,10,19,32);
