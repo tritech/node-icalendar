@@ -55,8 +55,12 @@ describe("iCalendar", function() {
             icalendar.parse_value('DATE', '20111109').valueOf());
         assert.equal((new Date(0,0,0,17,32,16)).valueOf(),
             icalendar.parse_value('TIME', '173216').valueOf());
-        assert.equal((new Date(2011,10,9,17,32,16)).valueOf(),
-            icalendar.parse_value('DATE-TIME', '20111109T173216').valueOf());
+
+        expect(icalendar.parse_value('DATE-TIME', '20111109T173216'))
+            .toEqual(new Date(2011,10,9,17,32,16));
+        expect(icalendar.parse_value('DATE-TIME', '20110725T000000Z'))
+            .toEqual(new Date(Date.UTC(2011,6,25)));
+
         assert.equal(60*60*24*7 + 60*60*24*2 + 60*60*3 + 60*4 + 5,
             icalendar.parse_value('DURATION', 'P1W2DT3H4M5S'));
 
