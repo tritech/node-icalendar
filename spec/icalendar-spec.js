@@ -202,4 +202,27 @@ describe("iCalendar", function() {
         assert.equal('2011-09-26T19:00:00.000Z',
                 vevent.getPropertyValue('DTSTART').toISOString());
     });
+
+    it('creates calendar clones', function() {
+        var cal = icalendar.iCalendar.parse(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTAMP:20111202T165900\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'DESCRIPTION:This bit of text is long and should be sp\r\n'+
+            ' lit across multiple lines of output\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var cal2 = cal.clone();
+
+        expect(cal).toNotBe(cal2);
+        expect(cal.components['VEVENT'][0])
+            .toNotBe(cal2.components['VEVENT'][0]);
+        expect(cal2.toString())
+            .toEqual(cal.toString())
+
+    });
 });
