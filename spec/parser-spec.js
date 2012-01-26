@@ -105,5 +105,52 @@ describe("iCalendar.parse", function() {
         assert.equal('2011-09-26T19:00:00.000Z',
                 vevent.getPropertyValue('DTSTART').toISOString());
     });
+
+    it('uses timezone data parameter when parsing', function() {
+        var cal = icalendar.parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Google Inc//Google Calendar 70.9054//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTART;TZID=America/New_York:20110926T150000\r\n'+
+            'DTEND;TZID=America/New_York:20110926T160000\r\n'+
+            'DTSTAMP:20111206T175451Z\r\n'+
+            'UID:jmdoebbto9vubpjf32aokpojb4@google.com\r\n'+
+            'CREATED:20110913T133341Z\r\n'+
+            'LAST-MODIFIED:20110913T133341Z\r\n'+
+            'SUMMARY:Girl Scout Cadettes\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n',
+
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Google Inc//Google Calendar 70.9054//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VTIMEZONE\r\n'+
+            'TZID:America/New_York\r\n'+
+            'X-LIC-LOCATION:America/New_York\r\n'+
+            'BEGIN:DAYLIGHT\r\n'+
+            'TZOFFSETFROM:-0500\r\n'+
+            'TZOFFSETTO:-0400\r\n'+
+            'TZNAME:EDT\r\n'+
+            'DTSTART:19700308T020000\r\n'+
+            'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\n'+
+            'END:DAYLIGHT\r\n'+
+            'BEGIN:STANDARD\r\n'+
+            'TZOFFSETFROM:-0400\r\n'+
+            'TZOFFSETTO:-0500\r\n'+
+            'TZNAME:EST\r\n'+
+            'DTSTART:19701101T020000\r\n'+
+            'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\n'+
+            'END:STANDARD\r\n'+
+            'END:VTIMEZONE\r\n'+
+            'END:VCALENDAR\r\n'
+            );
+
+        var vevent = cal.getComponents('VEVENT')[0];
+        expect(vevent.getPropertyValue('DTSTART'))
+            .toEqual(new Date(Date.UTC(2011,8,26,19,0,0)));
+        expect(vevent.getPropertyValue('DTEND'))
+            .toEqual(new Date(Date.UTC(2011,8,26,20,0,0)));
+    });
 });
 
