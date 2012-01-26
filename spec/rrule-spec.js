@@ -25,5 +25,13 @@ describe("RRule", function() {
         expect(rrule5.nextOccurs(start, new Date(2011,1,4)))
                 .toEqual(new Date(2015,2,1,2,0,0));
     });
+
+//    it("handles monthly recurrence", function() {
+//        var start = new Date(2011,0,1,2,0,0);
+//        var rrule = RRule.parse('FREQ=MONTHLY;BYDAY=1SU');
+//
+//        expect(rrule.nextOccurs(start, new Date(2011,0,1,2,0,0)))
+//                .toEqual(new Date(2011,1,
+//    });
 });
 
