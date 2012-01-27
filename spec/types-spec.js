@@ -62,8 +62,18 @@ describe('iCalendar type formatters and parsers', function() {
         expect(icalendar.parse_value('DATE-TIME', '20110725T000000Z'))
             .toEqual(new Date(Date.UTC(2011,6,25)));
 
-        assert.equal(60*60*24*7 + 60*60*24*2 + 60*60*3 + 60*4 + 5,
-            icalendar.parse_value('DURATION', 'P1W2DT3H4M5S'));
+        expect(icalendar.parse_value('DURATION', 'P1W2DT3H4M5S'))
+            .toEqual(60*60*24*7 + 60*60*24*2 + 60*60*3 + 60*4 + 5);
+        expect(icalendar.parse_value('DURATION', 'P1W'))
+            .toEqual(60*60*24*7);
+        expect(icalendar.parse_value('DURATION', 'P1D'))
+            .toEqual(60*60*24);
+        expect(icalendar.parse_value('DURATION', 'PT1H'))
+            .toEqual(60*60);
+        expect(icalendar.parse_value('DURATION', 'PT1M'))
+            .toEqual(60);
+        expect(icalendar.parse_value('DURATION', 'PT1S'))
+            .toEqual(1);
 
         assert.deepEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [1,0]},
             icalendar.parse_value('RECUR', 'FREQ=YEARLY;BYMONTH=11;BYDAY=1SU').valueOf());
