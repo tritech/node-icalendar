@@ -9,11 +9,12 @@ describe('iCalendar type formatters and parsers', function() {
         assert.equal('AAECBAUG', icalendar.format_value('BINARY',
             new Buffer('\u0000\u0001\u0002\u0004\u0005\u0006')));
 
-        var dt = new Date(2011,10,9,17,32,16);
-        var dt2 = new Date(2011,10,10,19,32);
-        assert.equal('20111109', icalendar.format_value('DATE', dt));
-        assert.equal('173216', icalendar.format_value('TIME', dt));
-        assert.equal('20111109T173216', icalendar.format_value('DATE-TIME', dt));
+        var date_only = new Date(2011,10,9);
+        var dt = new Date(Date.UTC(2011,10,9,17,32,16));
+        var dt2 = new Date(Date.UTC(2011,10,10,19,32));
+        assert.equal('20111109', icalendar.format_value('DATE', date_only));
+        assert.equal('173216Z', icalendar.format_value('TIME', dt));
+        assert.equal('20111109T173216Z', icalendar.format_value('DATE-TIME', dt));
 
         assert.equal('P1W', icalendar.format_value('DURATION', 60*60*24*7));
         assert.equal('P1D', icalendar.format_value('DURATION', 60*60*24));
@@ -29,9 +30,9 @@ describe('iCalendar type formatters and parsers', function() {
 
         assert.equal('1234567890', icalendar.format_value('INTEGER', 1234567890));
 
-        assert.equal('20111109T173216/20111110T193200',
+        assert.equal('20111109T173216Z/20111110T193200Z',
                 icalendar.format_value('PERIOD', [dt, dt2]));
-        assert.equal('20111109T173216/P5DT3H',
+        assert.equal('20111109T173216Z/P5DT3H',
                 icalendar.format_value('PERIOD', [dt, 60*60*24*5 + 60*60*3]));
 
         assert.equal('FREQ=YEARLY;BYMONTH=11;BYDAY=1SU', icalendar.format_value('RECUR', {

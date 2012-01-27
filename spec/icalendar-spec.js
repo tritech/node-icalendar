@@ -20,24 +20,24 @@ describe("iCalendar", function() {
 
     it('format vevent', function() {
         var vevent = new icalendar.VEvent('testuid@daybilling.com');
-        vevent.addProperty('DTSTART', new Date(2011,10,12,14,00,00));
-        vevent.addProperty('DTEND', new Date(2011,10,12,15,03,00));
+        vevent.addProperty('DTSTART', new Date(Date.UTC(2011,10,12,14,00,00)));
+        vevent.addProperty('DTEND', new Date(Date.UTC(2011,10,12,15,03,00)));
 
         var dtstamp = icalendar.format_value('DATE-TIME',vevent.getPropertyValue('DTSTAMP'));
         assert.deepEqual([
             'BEGIN:VEVENT',
             'DTSTAMP:'+dtstamp,
             'UID:testuid@daybilling.com',
-            'DTSTART:20111112T140000',
-            'DTEND:20111112T150300',
+            'DTSTART:20111112T140000Z',
+            'DTEND:20111112T150300Z',
             'END:VEVENT'], vevent.format());
     });
 
     it('VEvent.toString', function() {
         // VEvent objects need to get a calendar wrapper...
         var vevent = new icalendar.VEvent('testuid@daybilling.com');
-        vevent.addProperty('DTSTART', new Date(2011,10,12,14,00,00));
-        vevent.addProperty('DTEND', new Date(2011,10,12,15,03,00));
+        vevent.addProperty('DTSTART', new Date(Date.UTC(2011,10,12,14,00,00)));
+        vevent.addProperty('DTEND', new Date(Date.UTC(2011,10,12,15,03,00)));
 
         var dtstamp = icalendar.format_value('DATE-TIME',vevent.getPropertyValue('DTSTAMP'));
         assert.equal(
@@ -47,15 +47,15 @@ describe("iCalendar", function() {
             'BEGIN:VEVENT\r\n'+
             'DTSTAMP:'+dtstamp+'\r\n'+
             'UID:testuid@daybilling.com\r\n'+
-            'DTSTART:20111112T140000\r\n'+
-            'DTEND:20111112T150300\r\n'+
+            'DTSTART:20111112T140000Z\r\n'+
+            'DTEND:20111112T150300Z\r\n'+
             'END:VEVENT\r\n'+
             'END:VCALENDAR\r\n', vevent.toString());
     });
 
     it('wraps long lines correctly', function() {
         var vevent = new icalendar.VEvent('testuid@daybilling.com');
-        vevent.setDate(new Date(2011,11,2,16,59,00), 3600);
+        vevent.setDate(new Date(Date.UTC(2011,11,2,16,59,00)), 3600);
         vevent.setDescription(
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "+
             "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "+
@@ -66,7 +66,7 @@ describe("iCalendar", function() {
             'BEGIN:VEVENT',
             'DTSTAMP:'+dtstamp,
             'UID:testuid@daybilling.com',
-            'DTSTART:20111202T165900',
+            'DTSTART:20111202T165900Z',
             'DURATION:PT1H',
             'DESCRIPTION:Lorem ipsum dolor sit amet\\, consectetur adipisicing elit\\, sed',
             '  do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
