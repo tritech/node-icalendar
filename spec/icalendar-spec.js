@@ -79,13 +79,13 @@ describe("iCalendar", function() {
         var tz = new icalendar.VTimezone(null, 'Totally/Bogus');
         var dst = tz.addComponent('DAYLIGHT');
         dst.addProperty('DTSTART', new Date(1970,2,8,2,0,0));
-        dst.addProperty('RRULE', new icalendar.RRule({FREQ: 'YEARLY', BYMONTH: 3, BYDAY: '2SU'}));
+        dst.addProperty('RRULE', {FREQ: 'YEARLY', BYMONTH: 3, BYDAY: '2SU'});
         dst.addProperty('TZOFFSETFROM', -500);
         dst.addProperty('TZOFFSETTO', -400);
         dst.addProperty('TZNAME', 'EDT');
         var std = tz.addComponent('STANDARD');
         std.addProperty('DTSTART', new Date(1970,10,1,2,0,0));
-        std.addProperty('RRULE', new icalendar.RRule({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: '1SU'}));
+        std.addProperty('RRULE', {FREQ: 'YEARLY', BYMONTH: 11, BYDAY: '1SU'});
         std.addProperty('TZOFFSETFROM', -400);
         std.addProperty('TZOFFSETTO', -500);
         std.addProperty('TZNAME', 'EST');

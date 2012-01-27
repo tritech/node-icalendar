@@ -75,8 +75,8 @@ describe('iCalendar type formatters and parsers', function() {
         expect(icalendar.parse_value('DURATION', 'PT1S'))
             .toEqual(1);
 
-        assert.deepEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [1,0]},
-            icalendar.parse_value('RECUR', 'FREQ=YEARLY;BYMONTH=11;BYDAY=1SU').valueOf());
+        expect(icalendar.parse_value('RECUR', 'FREQ=YEARLY;BYMONTH=11;BYDAY=1SU'))
+            .toEqual({FREQ: 'YEARLY', BYMONTH: '11', BYDAY: '1SU'});
     });
 
 });
