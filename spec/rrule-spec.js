@@ -4,7 +4,7 @@ var RRule = require('../lib/icalendar').RRule;
 describe("RRule", function() {
     it("should parse RRULEs correctly", function() {
         expect(new RRule(RRule.parse('FREQ=YEARLY;BYMONTH=11;BYDAY=1SU')).valueOf())
-            .toEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [1,0]});
+            .toEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [[1,0]]});
     });
 
     it("handles yearly recurrence", function() {
@@ -46,6 +46,27 @@ describe("RRule", function() {
 
         expect(rrule.next(new Date(2011,0,2,2,0,0)))
                 .toEqual(new Date(2011,1,6,2,0,0));
+    });
+
+    it("handles monthly recurrence with an interval", function() {
+        var rrule = new RRule(RRule.parse('FREQ=MONTHLY;BYDAY=1SU;INTERVAL=3'),
+                    new Date(2011,0,1,2,0,0));
+
+        expect(rrule.nextOccurances(new Date(2011,0,1,2,0,0), 3))
+                .toEqual([
+                    new Date(2011,0,2,2,0,0),
+                    new Date(2011,3,3,2,0,0),
+                    new Date(2011,6,3,2,0,0)
+                    ]);
+    });
+
+    it("handles daily recurrence", function() {
+        var rrule = new RRule('FREQ=DAILY;BYDAY=1MO,2TU,3WE', new Date(2012,0,1));
+
+        expect(rrule.nextOccurances(new Date(2012,0,1), 3))
+                .toEqual([new Date(2012,0,2),
+                    new Date(2012,0,10),
+                    new Date(2012,0,18)]);
     });
 });
 
