@@ -4,7 +4,9 @@ var RRule = require('../lib/icalendar').RRule;
 describe("RRule", function() {
     it("should parse RRULEs correctly", function() {
         expect(new RRule(RRule.parse('FREQ=YEARLY;BYMONTH=11;BYDAY=1SU')).valueOf())
-            .toEqual({FREQ: 'YEARLY', BYMONTH: 11, BYDAY: [[1,0]]});
+            .toEqual({FREQ: 'YEARLY', BYMONTH: [11], BYDAY: [[1,0]]});
+        expect(new RRule('FREQ=WEEKLY;BYMONTH=1,2,3').valueOf())
+            .toEqual({FREQ: 'WEEKLY', BYMONTH: [1,2,3]});
     });
 
     it("respects UNTIL parts", function() {
@@ -63,6 +65,35 @@ describe("RRule", function() {
                         new Date(2011,3,3,2,0,0),
                         new Date(2011,6,3,2,0,0)
                         ]);
+        });
+    });
+
+    describe("weekly recurrence", function() {
+        it("handles simple weekly recurrence", function() {
+            var rrule = new RRule('FREQ=WEEKLY', new Date(2012,0,1));
+
+            expect(rrule.next(new Date(2012,0,1)))
+                    .toEqual(new Date(2012,0,8));
+
+            expect(rrule.next(new Date(2012,0,5)))
+                    .toEqual(new Date(2012,0,8));
+        });
+
+        it("handles weekly recurrence with BYDAY", function() {
+            var rrule = new RRule('FREQ=WEEKLY;BYDAY=TU', new Date(2012,0,1));
+
+            expect(rrule.next(new Date(2012,0,1)))
+                    .toEqual(new Date(2012,0,3));
+
+            expect(rrule.next(new Date(2012,0,5)))
+                    .toEqual(new Date(2012,0,10));
+        });
+
+        it("limits results of weekly recurrences with BYMONTH", function() {
+            var rrule = new RRule('FREQ=WEEKLY;BYMONTH=2,3,5', new Date(2012,0,3));
+
+            expect(rrule.next(new Date(2012,0,4)))
+                    .toEqual(new Date(2012,1,7));
         });
     });
 
