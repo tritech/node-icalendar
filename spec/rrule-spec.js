@@ -66,6 +66,18 @@ describe("RRule", function() {
                         new Date(2011,6,3,2,0,0)
                         ]);
         });
+        
+        it("handles MONTHLY recurrence with BYMONTHDAY", function() {
+            var rrule = new RRule(RRule.parse('FREQ=MONTHLY;BYMONTHDAY=14'),
+                        new Date(2011,0,1));
+
+            expect(rrule.nextOccurences(new Date(2011,0,2), 3))
+                    .toEqual([
+                        new Date(2011,0,14),
+                        new Date(2011,1,14),
+                        new Date(2011,2,14)
+                        ]);
+        });
     });
 
     describe("weekly recurrence", function() {
