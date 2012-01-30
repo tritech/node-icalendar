@@ -59,7 +59,7 @@ describe("RRule", function() {
             var rrule = new RRule(RRule.parse('FREQ=MONTHLY;BYDAY=1SU;INTERVAL=3'),
                         new Date(2011,0,1,2,0,0));
 
-            expect(rrule.nextOccurances(new Date(2011,0,1,2,0,0), 3))
+            expect(rrule.nextOccurences(new Date(2011,0,1,2,0,0), 3))
                     .toEqual([
                         new Date(2011,0,2,2,0,0),
                         new Date(2011,3,3,2,0,0),
@@ -101,7 +101,7 @@ describe("RRule", function() {
         it("handles daily recurrence", function() {
             var rrule = new RRule('FREQ=DAILY;BYDAY=1MO,2TU,3WE', new Date(2012,0,1));
 
-            expect(rrule.nextOccurances(new Date(2012,0,1), 3))
+            expect(rrule.nextOccurences(new Date(2012,0,1), 3))
                     .toEqual([new Date(2012,0,2),
                         new Date(2012,0,10),
                         new Date(2012,0,18)]);
