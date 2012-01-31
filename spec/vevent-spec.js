@@ -86,5 +86,22 @@ describe('VEvent objects', function() {
         expect(vevent.inTimeRange(new Date(2011,11,2,4,0,0),null))
             .toEqual(true);
     });
+
+    it('correctly matches recurring events', function() {
+        var vevent = new icalendar.VEvent();
+        vevent.addProperty('DTSTART', new Date(2011,11,1,5,0,0));
+        vevent.addProperty('RRULE', 'FREQ=MONTHLY;COUNT=3');
+
+        expect(vevent.inTimeRange(new Date(2011,10,1), new Date(2011,11,1)))
+                .toEqual(false);
+        expect(vevent.inTimeRange(new Date(2011,11,1), new Date(2011,11,2)))
+                .toEqual(true);
+        expect(vevent.inTimeRange(new Date(2011,11,1), null))
+                .toEqual(true);
+        expect(vevent.inTimeRange(new Date(2012,0,1)), new Date(2012,5,1))
+                .toEqual(true);
+        expect(vevent.inTimeRange(new Date(2012,2,3), null))
+                .toEqual(false);
+    });
 });
 
