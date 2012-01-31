@@ -31,11 +31,29 @@ Parsing iCalendar Files
 Create a iCalendar collection from a string:
 
     // data is a string containing RFC5545 data
-    var ical = icalendar.iCalendar.parse(data);
+    var ical = icalendar.parse_calendar(data);
 
 Access an array of the events defined within:
 
     ical.events()
+
+
+Implementation Status
+---------------------
+
+Several portions of the iCalendar spec remain unimplemented:
+
+    * HOURLY, MINUTELY, and SECONDLY recurrence are not implemented.
+        - Support for these is not currently planned, as they do not
+          seem to be found in actual use.
+    * BYHOUR, BYMINUTE, and BYSECOND modifiers are not implement as above.
+    * BYSETPOS
+    * WKST
+        - This could very likely become important
+    * BYWEEKNO
+    * BYYEARDAY
+
+    * RDATE and EXDATE are not implemented, but support is planned
 
 
 Contact
