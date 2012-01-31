@@ -5,6 +5,8 @@ describe("RRule", function() {
     it("should parse RRULEs correctly", function() {
         expect(new RRule(RRule.parse('FREQ=YEARLY;BYMONTH=11;BYDAY=1SU')).valueOf())
             .toEqual({FREQ: 'YEARLY', BYMONTH: [11], BYDAY: [[1,0]]});
+        expect(new RRule(RRule.parse('FREQ=YEARLY;BYDAY=-1SU')).valueOf())
+            .toEqual({FREQ: 'YEARLY', BYDAY: [[-1,0]]});
         expect(new RRule('FREQ=WEEKLY;BYMONTH=1,2,3').valueOf())
             .toEqual({FREQ: 'WEEKLY', BYMONTH: [1,2,3]});
     });
@@ -88,6 +90,14 @@ describe("RRule", function() {
                         new Date(2011,1,14),
                         new Date(2011,2,14)
                         ]);
+        });
+
+        it("handles MONTHLY recurrence with negative BYDAY", function() {
+            var rrule = new RRule(RRule.parse('FREQ=MONTHLY;BYDAY=-2SU'),
+                        new Date(2012,0,22));
+
+            expect(rrule.next(new Date(2012,1,1)))
+                    .toEqual(new Date(2012,1,19));
         });
     });
 
