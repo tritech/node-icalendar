@@ -90,7 +90,18 @@ describe("iCalendar", function() {
         std.addProperty('TZOFFSETTO', -500);
         std.addProperty('TZNAME', 'EST');
 
-        assert.equal(-400, tz.getOffsetForDate(new Date(2011,6,2)));
+        // These are easy...
+        expect(tz.getOffsetForDate(new Date(2011,6,2))).toEqual(-400);
+        expect(tz.getOffsetForDate(new Date(2011,1,2))).toEqual(-500);
+
+        // Do we handle transitions correctly?
+        // NB: These come in as an array because Date objects can't
+        //     represent a time that doesn't actually exist
+        expect(tz.getOffsetForDate([2011,3,13,1,59,59])).toEqual(-500);
+        expect(tz.getOffsetForDate([2011,3,13,2,0,0])).toEqual(-400);
+
+        expect(tz.getOffsetForDate([2011,11,6,1,59,59])).toEqual(-400);
+        expect(tz.getOffsetForDate([2011,11,6,2,0,0])).toEqual(-500);
     });
 
     it('creates calendar clones', function() {
