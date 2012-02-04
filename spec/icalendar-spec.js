@@ -3,7 +3,7 @@
 var assert = require('assert');
 var fs = require('fs');
 
-var icalendar = require('../lib/icalendar');
+var icalendar = require('../lib');
 
 // NB: Ported to jasmine from expresso, hence the strange layout
 // TODO: Make this look more like a jasmine spec
@@ -105,7 +105,7 @@ describe("iCalendar", function() {
     });
 
     it('creates calendar clones', function() {
-        var cal = icalendar.iCalendar.parse(
+        var cal = icalendar.parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
             'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
             'VERSION:2.0\r\n'+

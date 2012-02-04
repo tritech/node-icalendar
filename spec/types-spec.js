@@ -1,5 +1,5 @@
 
-var icalendar = require('../lib/icalendar');
+var icalendar = require('../lib');
 var assert = require('assert');
 
 // NB: Ported to jasmine from expresso, hence the strange layout

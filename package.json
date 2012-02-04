@@ -10,7 +10,7 @@
   "directories": {
     "lib": "lib"
   },
-  "main": "lib/icalendar",
+  "main": "lib/index",
   "devDependencies": {
     "jasmine-node": ">=1.0.13"
   },

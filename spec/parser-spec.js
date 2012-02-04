@@ -3,11 +3,11 @@
 var assert = require('assert');
 var fs = require('fs');
 
-var icalendar = require('../lib/icalendar');
+var parse_calendar = require('../lib/parser').parse_calendar;
 
 describe("iCalendar.parse", function() {
     it('parses data correctly', function() {
-        var cal = icalendar.iCalendar.parse(
+        var cal = parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
             'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
             'VERSION:2.0\r\n'+
@@ -32,7 +32,7 @@ describe("iCalendar.parse", function() {
     });
 
     it('parses large collections', function() {
-        var cal = icalendar.iCalendar.parse(
+        var cal = parse_calendar(
                 fs.readFileSync(__dirname+'/icalendar-test.ics', 'utf8'));
 
         assert.equal('-//Google Inc//Google Calendar 70.9054//EN',
@@ -55,12 +55,12 @@ describe("iCalendar.parse", function() {
 
     it('parses data from evolution', function() {
         // Evolution doesn't seem to provide very consistent line endings
-        var cal = icalendar.iCalendar.parse(
+        var cal = parse_calendar(
                 fs.readFileSync(__dirname+'/evolution.ics', 'utf8'));
     });
 
     it('parsing', function() {
-        var cal = icalendar.iCalendar.parse(
+        var cal = parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
             'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
             'VERSION:2.0\r\n'+
@@ -85,7 +85,7 @@ describe("iCalendar.parse", function() {
     });
 
     it('parse torture test', function() {
-        var cal = icalendar.iCalendar.parse(
+        var cal = parse_calendar(
                 fs.readFileSync(__dirname+'/icalendar-test.ics', 'utf8'));
 
         assert.equal('-//Google Inc//Google Calendar 70.9054//EN',
@@ -107,7 +107,7 @@ describe("iCalendar.parse", function() {
     });
 
     it('uses timezone data parameter when parsing', function() {
-        var cal = icalendar.parse_calendar(
+        var cal = parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
             'PRODID:-//Google Inc//Google Calendar 70.9054//EN\r\n'+
             'VERSION:2.0\r\n'+

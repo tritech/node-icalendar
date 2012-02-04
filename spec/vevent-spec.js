@@ -1,5 +1,5 @@
 
-var icalendar = require('../lib/icalendar');
+var icalendar = require('../lib');
 
 describe('VEvent objects', function() {
     it('matches time-ranges on start/end events correctly', function() {
