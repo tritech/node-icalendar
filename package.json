@@ -1,6 +1,6 @@
 {
   "name": "icalendar",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "James Emerton <james@tri-tech.com>",
   "description": "RFC5545 iCalendar parser/generator",
   "keywords": [
