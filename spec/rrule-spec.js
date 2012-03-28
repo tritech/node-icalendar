@@ -80,6 +80,12 @@ describe("RRule", function() {
 
             expect(rrule.next(new Date(2011,0,2,2,0,0)))
                     .toEqual(new Date(2011,1,6,2,0,0));
+
+            expect(rrule.next(new Date(2012,3,1,2,0,0)))
+                    .toEqual(new Date(2012,4,6,2,0,0));
+
+            expect(rrule.next(new Date(2012,4,6,2,0,0)))
+                    .toEqual(new Date(2012,5,3,2,0,0));
         });
 
         it("handles monthly recurrences with a time value", function() {
