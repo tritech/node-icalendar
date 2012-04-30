@@ -1,0 +1,6 @@
+node-icalendar was originally created by James Emerton (ephelon), but others have contributed
+changes over the life of the project. Their work is most appreciated.
+
+Matt Kalina (mattkalina)
+Simon Elliot (purge)
+Randy Puro (randypuro)
