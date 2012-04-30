@@ -17,5 +17,8 @@
   "dependencies": {},
   "engines": {
     "node": "*"
+  },
+  "scripts": {
+      "test": "jasmine-node spec"
   }
 }
