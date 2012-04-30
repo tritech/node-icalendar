@@ -33,6 +33,17 @@ describe("RRule", function() {
                 ]);
     });
 
+    it("finds recurrences in a specific timeframe", function() {
+        var rrule = new RRule('FREQ=MONTHLY', new Date(2011,0,1));
+
+        expect(rrule.nextOccurences(new Date(2010,11,31), new Date(2011,2,15)))
+                .toEqual([
+                    new Date(2011,0,1),
+                    new Date(2011,1,1),
+                    new Date(2011,2,1)
+                ]);
+    });
+
     describe("yearly recurrence", function() {
         it("handles yearly recurrence", function() {
             var start = new Date(1970,2,8,2,0,0);
