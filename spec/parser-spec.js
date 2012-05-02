@@ -49,6 +49,33 @@ describe("iCalendar.parse", function() {
             vevent.getPropertyValue('DESCRIPTION'));
     });
 
+    it("handles data using tabs for line continuations (Outlook)", function() {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'CLASS:PUBLIC\r\n'+
+            'DESCRIPTION:Come print for free! We will have more ally prints\\, and all th\r\n'+
+            '	e great colors you’ve come to expect from Open. \\n\\nFood! \\n\\nMusic! \\n\\\r\n'+
+            '	nSun!\\n\r\n'+
+            'DTEND:20120427T170000Z\r\n'+
+            'DTSTART:20120427T150000Z\r\n'+
+            'UID:040000008200E00074C5B7101A82E00800000000C0132EF80F0ECD01000000000000000\r\n'+
+            '	0100000008B70F4BD4D344E418B5834B8D78C50A3\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+                    
+        var vevent = cal.components['VEVENT'][0];
+        assert.equal('Come print for free! We will have more ally prints, and all '+
+            'the great colors you’ve come to expect from Open. \n\nFood! \n\nMusic! \n\nSun!\n',
+            vevent.getPropertyValue('DESCRIPTION'));
+
+        assert.equal('040000008200E00074C5B7101A82E00800000000C0132EF80F0ECD0100000000000'+
+            '00000100000008B70F4BD4D344E418B5834B8D78C50A3',
+            vevent.getPropertyValue('UID'));
+    });
+
     it('parses large collections', function() {
         var cal = parse_calendar(
                 fs.readFileSync(__dirname+'/icalendar-test.ics', 'utf8'));
