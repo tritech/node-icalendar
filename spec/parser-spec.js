@@ -31,6 +31,24 @@ describe("iCalendar.parse", function() {
                 vevent.getPropertyValue('DTSTAMP').valueOf());
     });
 
+    it("decodes escaped chars as per RFC", function() {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DESCRIPTION:Once upon a time\\; someone used a comma\\,\\nand a newline!\r\n'+
+            'DTEND:20120427T170000Z\r\n'+
+            'DTSTART:20120427T150000Z\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var vevent = cal.components['VEVENT'][0];
+        assert.equal('Once upon a time; someone used a comma,\nand a newline!',
+            vevent.getPropertyValue('DESCRIPTION'));
+    });
+
     it('parses large collections', function() {
         var cal = parse_calendar(
                 fs.readFileSync(__dirname+'/icalendar-test.ics', 'utf8'));
