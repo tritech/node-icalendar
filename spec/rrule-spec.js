@@ -96,6 +96,15 @@ describe("RRule", function() {
 
         });
 
+        it("handles monthly recurrences with multiple BYDAY values", function () {
+            var rrule = new RRule('FREQ=MONTHLY;BYDAY=1MO,2TU,3WE', new Date(2012, 0, 1));
+
+            expect(rrule.nextOccurences(new Date(2012, 0, 1), 3))
+                .toEqual([new Date(2012, 0, 2),
+                    new Date(2012, 0, 10),
+                    new Date(2012, 0, 18)]);
+        });
+
         it("handles monthly recurrences on the start day of month", function() {
           var rrule = new RRule(RRule.parse('FREQ=MONTHLY'), new Date(2011,0,1));
 
