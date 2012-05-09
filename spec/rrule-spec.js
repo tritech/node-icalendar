@@ -99,10 +99,15 @@ describe("RRule", function() {
         it("handles monthly recurrences with multiple BYDAY values", function () {
             var rrule = new RRule('FREQ=MONTHLY;BYDAY=1MO,2TU,3WE', new Date(2012, 0, 1));
 
-            expect(rrule.nextOccurences(new Date(2012, 0, 1), 3))
-                .toEqual([new Date(2012, 0, 2),
-                    new Date(2012, 0, 10),
-                    new Date(2012, 0, 18)]);
+            expect(rrule.nextOccurences(new Date(2012, 0, 1), 6))
+                .toEqual([
+                      new Date(2012, 0, 2),
+                      new Date(2012, 0, 10),
+                      new Date(2012, 0, 18),
+                      new Date(2012, 1, 6),
+                      new Date(2012, 1, 14),
+                      new Date(2012, 1, 15)
+                    ]);
         });
 
         it("handles monthly recurrences on the start day of month", function() {
