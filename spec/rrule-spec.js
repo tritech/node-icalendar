@@ -9,6 +9,17 @@ describe("RRule", function() {
             .toEqual({FREQ: 'YEARLY', BYDAY: [[-1,0]]});
         expect(new RRule('FREQ=WEEKLY;BYMONTH=1,2,3').valueOf())
             .toEqual({FREQ: 'WEEKLY', BYMONTH: [1,2,3]});
+        rrule = new RRule('FREQ=WEEKLY;BYMONTH=1,2,3;EXDATE=20110201T010000,20110302').valueOf();
+        expect(rrule.FREQ).toEqual('WEEKLY');
+        expect(rrule.BYMONTH).toEqual([1,2,3]);
+        expect(rrule.EXDATE[0]).toEqual(new Date(2011,1,1,1));
+        expect(rrule.EXDATE[0].date_only).toBeFalsy();
+        expect(rrule.EXDATE[1]).toEqual(new Date(2011,2,2));
+        expect(rrule.EXDATE[1].date_only).toBeTruthy();
+    });
+
+    it("should format RRULEs correctly", function() {
+      expect(new RRule('FREQ=WEEKLY;BYMONTH=1,2,3;EXDATE=20110201T010000Z,20110302').toString()).toEqual('FREQ=WEEKLY;BYMONTH=1,2,3;EXDATE=20110201T010000Z,20110302');
     });
 
     it("respects UNTIL parts", function() {
@@ -30,6 +41,29 @@ describe("RRule", function() {
                     new Date(2011,0,1),
                     new Date(2011,1,1),
                     new Date(2011,2,1)
+                ]);
+    });
+
+    it("respects EXDATE date_only parts", function() {
+        var rrule = new RRule('FREQ=MONTHLY;EXDATE=20110201,20110401', new Date(2011,0,1));
+
+        expect(rrule.nextOccurences(new Date(2010,11,31), 4))
+                .toEqual([
+                    new Date(2011,0,1),
+                    new Date(2011,2,1),
+                    new Date(2011,4,1),
+                    new Date(2011,5,1)
+                ]);
+    });
+
+    it("respects EXDATE full date parts", function() {
+        var rrule = new RRule('FREQ=MONTHLY;EXDATE=20110201,20110301T100000,20110401T120000', new Date(2011,0,1,10));
+
+        expect(rrule.nextOccurences(new Date(2010,11,31), 3))
+                .toEqual([
+                    new Date(2011,0,1,10),
+                    new Date(2011,3,1,10),
+                    new Date(2011,4,1,10)
                 ]);
     });
 
