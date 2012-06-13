@@ -263,6 +263,14 @@ describe("RRule", function() {
             expect(rrule.next(new Date(2012,0,2,12,45,30)))
                     .toEqual(new Date(2012,0,3,12,45,30));
         });
+
+
+        it("handles daily weekend recurrence across month boundary", function() {
+            var rrule = new RRule('FREQ=DAILY;BYDAY=SA,SU', new Date(2012,3,14,17,0));
+
+            expect(rrule.next(new Date(2012,4,29,17,0)))
+                .toEqual(new Date(2012,5,2,17,0));
+        });
     });
 });
 
