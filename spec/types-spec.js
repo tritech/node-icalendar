@@ -44,6 +44,19 @@ describe('iCalendar type formatters and parsers', function() {
         // Escape some things...
         assert.equal('\\\\ \\; \\, \\n', icalendar.format_value('TEXT', '\\ ; , \n'));
     });
+    
+    it('formats array values correctly', function() {
+        assert.equal(
+            '20120101,20120201',
+            icalendar.format_value('DATE', [new Date(2012,0,1), new Date(2012,1,1)]));
+
+        var dt = new Date(Date.UTC(2011,10,9,17,32,16));
+        var dt2 = new Date(Date.UTC(2011,10,10,19,32));
+        assert.equal(
+            '20111109T173216Z/20111110T193200Z,20111110T193200Z/20111109T173216Z',
+            icalendar.format_value('PERIOD', [[dt, dt2], [dt2, dt]]));
+
+    });
 
     it('value parsers', function() {
         assert.equal('\u0000\u0001\u0002\u0004\u0005\u0006',
