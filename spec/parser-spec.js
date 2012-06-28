@@ -207,14 +207,16 @@ describe("iCalendar.parse", function() {
             'DTSTAMP:20111202T165900\r\n'+
             'UID:testuid@someotherplace.com\r\n'+
             'EXDATE:20120102T100000,20120203T100000\r\n'+
-            'DESCRIPTION:This bit of text is long and should be sp\r\n'+
-            ' lit across multiple lines of output\r\n'+
+            'EXDATE;VALUE=DATE:20120304\r\n'+
             'END:VEVENT\r\n'+
             'END:VCALENDAR\r\n');
 
         var vevent = cal.getComponents('VEVENT')[0];
         expect(vevent.getPropertyValue('EXDATE'))
             .toEqual([new Date(2012,0,2, 10,0,0), new Date(2012,1,3, 10,0,0)]);
+        expect(vevent.getPropertyValue('EXDATE',1))
+            .toEqual([new Date(2012,2,4)]);
+        expect(vevent.getPropertyValue('EXDATE',1)[0].date_only).toBeTruthy();
     });
 });
 

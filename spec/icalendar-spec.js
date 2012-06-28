@@ -126,4 +126,21 @@ describe("iCalendar", function() {
             .toEqual(cal.toString())
 
     });
+
+    it('formats objects with multiple occurrences of a property', function() {
+        var vevent = new icalendar.VEvent('testuid@tri-tech.com');
+        vevent.addProperty('EXDATE', new Date(Date.UTC(2012,2,3, 11,30,00)));
+        vevent.addProperty('EXDATE', new Date(2011,1,2), { VALUE: 'DATE' });
+
+        var dtstamp = icalendar.format_value('DATE-TIME',vevent.getPropertyValue('DTSTAMP'));
+        assert.deepEqual([
+            'BEGIN:VEVENT',
+            'DTSTAMP:'+dtstamp,
+            'UID:testuid@tri-tech.com',
+            'EXDATE:20120303T113000Z',
+            'EXDATE;VALUE=DATE:20110202',
+            'END:VEVENT'
+            ],
+            vevent.format());
+    });
 });
