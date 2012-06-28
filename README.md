@@ -53,7 +53,10 @@ Several portions of the iCalendar spec remain unimplemented:
     * BYWEEKNO
     * BYYEARDAY
 
-    * RDATE and EXDATE are not implemented, but support is planned
+    * RDATE is not yet implemented
+    * RECURRENCE-ID and multiple related VEVENTS are not currently supported
+
+    * Documentation is pretty weak
 
 
 Contact
