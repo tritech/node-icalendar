@@ -197,5 +197,24 @@ describe("iCalendar.parse", function() {
         expect(vevent.getPropertyValue('DTEND'))
             .toEqual(new Date(Date.UTC(2011,8,26,20,0,0)));
     });
+
+    it('parses EXDATE properties', function() {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTAMP:20111202T165900\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'EXDATE:20120102T100000,20120203T100000\r\n'+
+            'DESCRIPTION:This bit of text is long and should be sp\r\n'+
+            ' lit across multiple lines of output\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var vevent = cal.getComponents('VEVENT')[0];
+        expect(vevent.getPropertyValue('EXDATE'))
+            .toEqual([new Date(2012,0,2, 10,0,0), new Date(2012,1,3, 10,0,0)]);
+    });
 });
 
