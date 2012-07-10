@@ -103,5 +103,29 @@ describe('VEvent objects', function() {
         expect(vevent.inTimeRange(new Date(2012,2,3), null))
                 .toEqual(false);
     });
+
+    it('uses EXDATE properties when calculating recurrence', function() {
+        var cal = icalendar.parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTAMP:20111202T165900\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'DTSTART:20110101T100000\r\n'+
+            'RRULE:FREQ=MONTHLY\r\n'+
+            'EXDATE;VALUE=DATE:20110201\r\n'+
+            'EXDATE:20110301T100000,20110401T120000\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var rrule = cal.getComponents('VEVENT')[0].rrule();
+        expect(rrule.nextOccurences(new Date(2010,11,31), 3))
+                .toEqual([
+                    new Date(2011,0,1,10),
+                    new Date(2011,3,1,10),
+                    new Date(2011,4,1,10)
+                ]);
+    });
 });
 

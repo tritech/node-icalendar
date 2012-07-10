@@ -73,22 +73,19 @@ describe("RRule", function() {
                 ]);
     });
 
-//    it("respects EXDATE full date parts", function() {
-//        var feb01 = new Date(2011,1,1);
-//        feb01.date_only = true;
-//
-//        var rrule = new RRule('FREQ=MONTHLY', {
-//            DTSTART: new Date(2011,0,1,10),
-//            EXDATE: [feb01, new Date(2011,2,1, 10,0,0), new Date(2011,3,1, 12,0,0)]
-//        });
-//
-//        expect(rrule.nextOccurences(new Date(2010,11,31), 3))
-//                .toEqual([
-//                    new Date(2011,0,1,10),
-//                    new Date(2011,3,1,10),
-//                    new Date(2011,4,1,10)
-//                ]);
-//    });
+    it("respects EXDATE full date parts", function() {
+        var rrule = new RRule('FREQ=MONTHLY', {
+            DTSTART: new Date(2011,0,1, 10,0,0),
+            EXDATE: [date_only(2011,1,1), new Date(2011,2,1, 10,0,0), new Date(2011,3,1, 12,0,0)]
+        });
+
+        expect(rrule.nextOccurences(new Date(2010,11,31), 3))
+                .toEqual([
+                    new Date(2011,0,1,10),
+                    new Date(2011,3,1,10),
+                    new Date(2011,4,1,10)
+                ]);
+    });
 
     describe("yearly recurrence", function() {
         it("handles yearly recurrence", function() {
