@@ -62,10 +62,14 @@ describe('iCalendar type formatters and parsers', function() {
         assert.equal('\u0000\u0001\u0002\u0004\u0005\u0006',
             icalendar.parse_value('BINARY', 'AAECBAUG'));
 
+        expect(icalendar.parse_value('CREATED', '20120814T175046Z')
+            toEqual(new Date(Date.UTC(2012,08,14,17,50,46)));
         expect(icalendar.parse_value('DATE', '20111109'))
             .toEqual(new Date(2011,10,9));
         expect(icalendar.parse_value('DATE', '20111109').date_only)
             .toEqual(true);
+        expect(icalendar.parse_value('LAST-MODIFIED', '20120814T175050Z')
+            toEqual(new Date(Date.UTC(2012,08,14,17,50,50)));
 
         assert.equal((new Date(0,0,0,17,32,16)).valueOf(),
             icalendar.parse_value('TIME', '173216').valueOf());
