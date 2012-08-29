@@ -218,5 +218,22 @@ describe("iCalendar.parse", function() {
             .toEqual([new Date(2012,2,4)]);
         expect(vevent.getPropertyValue('EXDATE',1)[0].date_only).toBeTruthy();
     });
+
+    it('parses quoted property parameter values', function() {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTAMP:20111202T165900\r\n'+
+            'X-TEST;TESTPARAM="Something;:, here":testvalue\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var vevent = cal.getComponents('VEVENT')[0];
+        assert.equal('Something;:, here',
+            vevent.getProperty('X-TEST').getParameter('TESTPARAM'));
+    });
 });
 
