@@ -13,8 +13,8 @@ describe("iCalendar", function() {
         var ics = new icalendar.iCalendar();
         assert.deepEqual([
             'BEGIN:VCALENDAR',
-            'PRODID:'+icalendar.PRODID,
             'VERSION:2.0',
+            'PRODID:'+icalendar.PRODID,
             'END:VCALENDAR'], ics.format());
     });
 
@@ -42,8 +42,8 @@ describe("iCalendar", function() {
         var dtstamp = icalendar.format_value('DATE-TIME',vevent.getPropertyValue('DTSTAMP'));
         assert.equal(
             'BEGIN:VCALENDAR\r\n'+
-            'PRODID:'+icalendar.PRODID+'\r\n'+
             'VERSION:2.0\r\n'+
+            'PRODID:'+icalendar.PRODID+'\r\n'+
             'BEGIN:VEVENT\r\n'+
             'DTSTAMP:'+dtstamp+'\r\n'+
             'UID:testuid@daybilling.com\r\n'+
@@ -107,8 +107,8 @@ describe("iCalendar", function() {
     it('creates calendar clones', function() {
         var cal = icalendar.parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
-            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
             'VERSION:2.0\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
             'BEGIN:VEVENT\r\n'+
             'DTSTAMP:20111202T165900\r\n'+
             'UID:testuid@someotherplace.com\r\n'+
