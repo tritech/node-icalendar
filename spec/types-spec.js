@@ -25,6 +25,8 @@ describe('iCalendar type formatters and parsers', function() {
         assert.equal('P1W2DT3H4M5S', icalendar.format_value('DURATION',
             60*60*24*7 + 60*60*24*2 + 60*60*3 + 60*4 + 5));
 
+        assert.equal('-PT11M', icalendar.format_value('DURATION', -60*11));
+
         assert.equal('1.333', icalendar.format_value('FLOAT', 1.333));
         assert.equal('-3.14', icalendar.format_value('FLOAT', -3.14));
 
@@ -87,6 +89,8 @@ describe('iCalendar type formatters and parsers', function() {
             .toEqual(60);
         expect(icalendar.parse_value('DURATION', 'PT1S'))
             .toEqual(1);
+        expect(icalendar.parse_value('DURATION', '-PT11M'))
+            .toEqual(-60*11);
 
         expect(icalendar.parse_value('RECUR', 'FREQ=YEARLY;BYMONTH=11;BYDAY=1SU'))
             .toEqual({FREQ: 'YEARLY', BYMONTH: '11', BYDAY: '1SU'});
