@@ -58,6 +58,46 @@ describe("RRule", function() {
                 ]);
     });
 
+    it("finds recurrences in a specific timeframe, ignoring `dtend`", function() {
+        var rrule = new RRule(
+          'FREQ=MONTHLY;BYDAY=3MO',
+          new Date(2013,2,18,9),
+          new Date(2013,2,18,10)
+       );
+
+        expect(rrule.nextOccurences(new Date(2013,9,1), new Date(2013,11,1)))
+                .toEqual([
+                    new Date(2013,9,21,9),
+                    new Date(2013,10,18,9)
+                ]);
+    });
+
+    it("finds recurrences in a specific timeframe, honoring `until`", function() {
+        var rrule = new RRule(
+          'FREQ=MONTHLY;BYDAY=3MO;UNTIL=20131101',
+          new Date(2013,2,18,9),
+          new Date(2013,2,18,10)
+       );
+
+        expect(rrule.nextOccurences(new Date(2013,9,1), new Date(2013,11,1)))
+                .toEqual([
+                    new Date(2013,9,21,9),
+                ]);
+    });
+
+    it("finds recurrences in a specific timeframe, honoring `until` (inclusive)", function() {
+        var rrule = new RRule(
+          'FREQ=MONTHLY;BYDAY=3MO;UNTIL=20130318',
+          new Date(2013,2,18),
+          new Date(2013,2,18)
+       );
+
+        expect(rrule.nextOccurences(new Date(2013,2,1), new Date(2013,2,20)))
+                .toEqual([
+                    new Date(2013,2,18),
+                ]);
+    });
+
     it("respects EXDATE date_only parts", function() {
         var rrule = new RRule('FREQ=MONTHLY', {
             DTSTART: new Date(2011,0,1),
