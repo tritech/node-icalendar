@@ -235,5 +235,22 @@ describe("iCalendar.parse", function() {
         assert.equal('Something;:, here',
             vevent.getProperty('X-TEST').getParameter('TESTPARAM'));
     });
+
+    it('parses DateTime Trigger correctly', function () {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'DTSTAMP:20111202T165900\r\n'+
+            'TRIGGER;VALUE=DATE-TIME:20111109T173216\r\n'+
+            'UID:testuid@someotherplace.com\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var vevent = cal.getComponents('VEVENT')[0];
+        expect(new Date(2011,10,9,17,32,16)).toEqual(vevent.getPropertyValue('TRIGGER'));
+
+    });
 });
 
