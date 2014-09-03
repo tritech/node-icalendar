@@ -14,7 +14,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-jasmine-node": "git://github.com/leider/grunt-jasmine-node.git#master",
-    "jasmine-node": ">=1.0.13"
+    "jasmine-node": "~1.14.5"
   },
   "repository": {
     "type": "git",
