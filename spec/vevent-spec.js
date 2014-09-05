@@ -127,5 +127,85 @@ describe('VEvent objects', function() {
                     new Date(2011,4,1,10)
                 ]);
     });
+
+    it('can respond to invitations', function() {
+        var cal = icalendar.parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'METHOD:REQUEST\r\n'+
+            'PRODID:Microsoft Exchange Server 2010\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'ORGANIZER;CN=Bob Smith:MAILTO:bob@example.com\r\n'+
+            'ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=jim@exampl\r\n'+
+            ' e.com:MAILTO:jim@example.com\r\n'+
+            'SUMMARY;LANGUAGE=en-US:Dentist Appointment\r\n'+
+            'DTSTART:20140903T133000\r\n'+
+            'DTEND:20140903T140000\r\n'+
+            'UID:38F2C174-A263-481A-987C-75392FF42AF6\r\n'+
+            'DTSTAMP:20140902T181530Z\r\n'+
+            'TRANSP:OPAQUE\r\n'+
+            'STATUS:CONFIRMED\r\n'+
+            'SEQUENCE:2\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var resp = cal.events()[0].respond('mailto:jim@example.com');
+
+        expect(resp.getPropertyValue('METHOD')).toEqual('REPLY');
+
+        // UID and SEQUENCE must remain the same...
+        expect(resp.events()[0].getPropertyValue('UID'))
+            .toEqual('38F2C174-A263-481A-987C-75392FF42AF6');
+        expect(resp.events()[0].getPropertyValue('SEQUENCE')).toEqual('2');
+
+        var attendee = resp.events()[0].getProperty('ATTENDEE');
+        expect(attendee.value).toEqual('mailto:jim@example.com');
+        expect(attendee.getParameter('PARTSTAT')).toEqual('ACCEPTED');
+    });
+
+    it('copies timezone data when responding to invitations', function() {
+        var cal = icalendar.parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'METHOD:REQUEST\r\n'+
+            'PRODID:Microsoft Exchange Server 2010\r\n'+
+            'VERSION:2.0\r\n'+
+            'BEGIN:VTIMEZONE\r\n'+
+            'TZID:Eastern Standard Time\r\n'+
+            'BEGIN:STANDARD\r\n'+
+            'DTSTART:16010101T020000\r\n'+
+            'TZOFFSETFROM:-0400\r\n'+
+            'TZOFFSETTO:-0500\r\n'+
+            'RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11\r\n'+
+            'END:STANDARD\r\n'+
+            'BEGIN:DAYLIGHT\r\n'+
+            'DTSTART:16010101T020000\r\n'+
+            'TZOFFSETFROM:-0500\r\n'+
+            'TZOFFSETTO:-0400\r\n'+
+            'RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3\r\n'+
+            'END:DAYLIGHT\r\n'+
+            'END:VTIMEZONE\r\n'+
+            'BEGIN:VEVENT\r\n'+
+            'ORGANIZER;CN=Bob Smith:MAILTO:bob@example.com\r\n'+
+            'ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=jim@exampl\r\n'+
+            ' e.com:MAILTO:jim@example.com\r\n'+
+            'SUMMARY;LANGUAGE=en-US:Dentist Appointment\r\n'+
+            'DTSTART:20140903T133000\r\n'+
+            'DTEND:20140903T140000\r\n'+
+            'UID:38F2C174-A263-481A-987C-75392FF42AF6\r\n'+
+            'DTSTAMP:20140902T181530Z\r\n'+
+            'TRANSP:OPAQUE\r\n'+
+            'STATUS:CONFIRMED\r\n'+
+            'SEQUENCE:2\r\n'+
+            'END:VEVENT\r\n'+
+            'END:VCALENDAR\r\n');
+
+        var resp = cal.events()[0].respond('mailto:jim@example.com');
+        expect(resp.getComponents('VTIMEZONE').length).toEqual(1);
+
+        var tz = resp.getComponents('VTIMEZONE')[0];
+        expect(tz.getPropertyValue('TZID')).toEqual('Eastern Standard Time');
+        expect(tz.getComponents('STANDARD')[0].getPropertyValue('TZOFFSETFROM'))
+            .toEqual('-0400');
+    });
 });
 
