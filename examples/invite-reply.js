@@ -16,7 +16,7 @@ var vevent = invite.events()[0];
 // Find the first attendee that has not responded...
 var attendee = 'mailto:james@example.com';
 
-var resp = vevent.respond(attendee, true);
+var resp = vevent.reply(attendee, true);
 console.log(resp.toString());
 
 

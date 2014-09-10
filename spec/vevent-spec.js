@@ -128,7 +128,7 @@ describe('VEvent objects', function() {
                 ]);
     });
 
-    it('can respond to invitations', function() {
+    it('can reply to invitations', function() {
         var cal = icalendar.parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
             'METHOD:REQUEST\r\n'+
@@ -149,7 +149,7 @@ describe('VEvent objects', function() {
             'END:VEVENT\r\n'+
             'END:VCALENDAR\r\n');
 
-        var resp = cal.events()[0].respond('mailto:jim@example.com');
+        var resp = cal.events()[0].reply('mailto:jim@example.com');
 
         expect(resp.getPropertyValue('METHOD')).toEqual('REPLY');
 
@@ -199,7 +199,7 @@ describe('VEvent objects', function() {
             'END:VEVENT\r\n'+
             'END:VCALENDAR\r\n');
 
-        var resp = cal.events()[0].respond('mailto:jim@example.com');
+        var resp = cal.events()[0].reply('mailto:jim@example.com');
         expect(resp.getComponents('VTIMEZONE').length).toEqual(1);
 
         var tz = resp.getComponents('VTIMEZONE')[0];
