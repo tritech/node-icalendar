@@ -13,10 +13,10 @@ var invite = icalendar.parse_calendar(
 var vevent = invite.events()[0];
 
 
-// Find the first attendee that has not responded...
-var attendee = 'mailto:james@example.com';
+// Email address to respond with
+var attendee = process.argv[3];
 
-var resp = vevent.reply(attendee, true);
+var resp = vevent.reply('mailto:'+attendee, true);
 console.log(resp.toString());
 
 
@@ -25,10 +25,10 @@ console.log('sending to', reply_to);
 
 var nm = require('nodemailer');
 
-var server = nm.createTransport();
+var server = nm.createTransport({host: 'localhost'});
 
 server.sendMail({
-    from: 'james@example.com',
+    from: attendee,
     to: reply_to,
 
     subject: 'Meeting accepted',
