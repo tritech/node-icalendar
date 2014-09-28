@@ -13,7 +13,7 @@
   "main": "lib/index",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-jasmine-node": "git://github.com/leider/grunt-jasmine-node.git#master",
+    "grunt-jasmine-node": "~0.2.1",
     "jasmine-node": "~1.14.5"
   },
   "repository": {
