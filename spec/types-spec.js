@@ -60,6 +60,13 @@ describe('iCalendar type formatters and parsers', function() {
 
     });
 
+    it('automatically prepends mailto: for CAL-ADDRESS properties', function() {
+        expect(icalendar.format_value('CAL-ADDRESS', 'bob@example.com'))
+            .toEqual('mailto:bob@example.com');
+        expect(icalendar.format_value('CAL-ADDRESS', 'mailto:bob@example.com'))
+            .toEqual('mailto:bob@example.com');
+    });
+
     it('value parsers', function() {
         assert.equal('\u0000\u0001\u0002\u0004\u0005\u0006',
             icalendar.parse_value('BINARY', 'AAECBAUG'));
