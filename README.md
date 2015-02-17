@@ -3,6 +3,11 @@ iCalendar for Node
 
 Provides iCalendar (RFC5545) parsing as well as a convenient API for generating iCalendar data.
 
+node-icalendar is published to npm as `icalendar`. To install, run:
+```
+npm install icalendar
+```
+
 
 Generating iCalendar Files
 --------------------------
