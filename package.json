@@ -22,7 +22,7 @@
   },
   "dependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">= 0.10"
   },
   "scripts": {
     "test": "jasmine-node spec"
