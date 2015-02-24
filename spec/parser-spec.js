@@ -31,6 +31,17 @@ describe("iCalendar.parse", function() {
                 vevent.getPropertyValue('DTSTAMP').valueOf());
     });
 
+    it("parses data without trailing newline", function() {
+        var cal = parse_calendar(
+            'BEGIN:VCALENDAR\r\n'+
+            'PRODID:-//Bobs Software Emporium//NONSGML Bobs Calendar//EN\r\n'+
+            'VERSION:2.0\r\n'+
+            'END:VCALENDAR');
+
+        assert.equal('-//Bobs Software Emporium//NONSGML Bobs Calendar//EN',
+                    cal.getPropertyValue('PRODID'));
+    });
+
     it("decodes escaped chars as per RFC", function() {
         var cal = parse_calendar(
             'BEGIN:VCALENDAR\r\n'+
