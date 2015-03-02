@@ -19,7 +19,7 @@ describe("iCalendar", function() {
     });
 
     it('calendar stream', function(done) {
-        var Writable = require('stream').Writable;
+        var Writable = require('readable-stream').Writable;
         // fake Writable stream to collect the data into a string
         function toStr(next) {
           var stream = new Writable();
