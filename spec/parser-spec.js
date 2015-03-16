@@ -263,5 +263,21 @@ describe("iCalendar.parse", function() {
         expect(new Date(2011,10,9,17,32,16)).toEqual(vevent.getPropertyValue('TRIGGER'));
 
     });
+
+    it('parses VALARMS correctly', function () {
+        var cal = parse_calendar(fs.readFileSync(__dirname + '/valarm-spec.ics', 'utf8'));
+
+        var event = cal.getComponents('VEVENT')[0];
+        var alarm = event.getComponents('VALARM')[0];
+
+        expect(alarm.getPropertyValue('ACTION'))                   .toBe('AUDIO');
+        expect(alarm.getPropertyValue('REPEAT'))                   .toBe('4');
+        expect(alarm.getPropertyValue('DURATION'))                 .toBe(900);
+        expect(alarm.getPropertyValue('ATTACH'))                   .toBe('ftp://example.com/pub/sounds/bell-01.aud');
+        expect(alarm.getProperty('ATTACH').getParameter('FMTTYPE')).toBe('audio/basic');
+        expect(alarm.getPropertyValue('TRIGGER').getTime())        .toBe(858605400000);
+
+    });
+
 });
 
