@@ -46,7 +46,7 @@ describe('iCalendar type formatters and parsers', function() {
         // Escape some things...
         assert.equal('\\\\ \\; \\, \\n', icalendar.format_value('TEXT', '\\ ; , \n'));
     });
-    
+
     it('formats array values correctly', function() {
         assert.equal(
             '20120101,20120201',
