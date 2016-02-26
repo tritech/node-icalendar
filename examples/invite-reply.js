@@ -1,4 +1,4 @@
-// 
+//
 // Read an .ics file given on the command line, generate a reply, and email it
 // using nodemailer.
 //

@@ -222,7 +222,7 @@ describe("RRule", function() {
                         new Date(2011,6,3,2,0,0)
                         ]);
         });
-        
+
         it("handles MONTHLY recurrence with BYMONTHDAY", function() {
             var rrule = new RRule(RRule.parse('FREQ=MONTHLY;BYMONTHDAY=14'),
                         new Date(2011,0,1));

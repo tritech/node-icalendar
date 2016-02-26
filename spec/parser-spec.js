@@ -76,7 +76,7 @@ describe("iCalendar.parse", function() {
             '	0100000008B70F4BD4D344E418B5834B8D78C50A3\r\n'+
             'END:VEVENT\r\n'+
             'END:VCALENDAR\r\n');
-                    
+
         var vevent = cal.components['VEVENT'][0];
         assert.equal('Come print for free! We will have more ally prints, and all '+
             'the great colors you’ve come to expect from Open. \n\nFood! \n\nMusic! \n\nSun!\n',
@@ -263,5 +263,21 @@ describe("iCalendar.parse", function() {
         expect(new Date(2011,10,9,17,32,16)).toEqual(vevent.getPropertyValue('TRIGGER'));
 
     });
+
+    it('parses VALARMS correctly', function () {
+        var cal = parse_calendar(fs.readFileSync(__dirname + '/valarm-spec.ics', 'utf8'));
+
+        var event = cal.getComponents('VEVENT')[0];
+        var alarm = event.getComponents('VALARM')[0];
+
+        expect(alarm.getPropertyValue('ACTION'))                   .toBe('AUDIO');
+        expect(alarm.getPropertyValue('REPEAT'))                   .toBe('4');
+        expect(alarm.getPropertyValue('DURATION'))                 .toBe(900);
+        expect(alarm.getPropertyValue('ATTACH'))                   .toBe('ftp://example.com/pub/sounds/bell-01.aud');
+        expect(alarm.getProperty('ATTACH').getParameter('FMTTYPE')).toBe('audio/basic');
+        expect(alarm.getPropertyValue('TRIGGER').getTime())        .toBe(858605400000);
+
+    });
+
 });
 
