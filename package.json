@@ -20,9 +20,11 @@
     "type": "git",
     "url": "git://github.com/tritech/node-icalendar.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "readable-stream": "~1.1.0"
+  },
   "engines": {
-    "node": "*"
+    "node": ">= 0.10"
   },
   "scripts": {
     "test": "jasmine-node spec"

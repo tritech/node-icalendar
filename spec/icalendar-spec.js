@@ -18,6 +18,31 @@ describe("iCalendar", function() {
             'END:VCALENDAR'], ics.format());
     });
 
+    it('calendar stream', function(done) {
+        var Writable = require('readable-stream').Writable;
+        // fake Writable stream to collect the data into a string
+        function toStr(next) {
+          var stream = new Writable();
+          var str = "";
+          stream.write = function(chunk) {
+              str += (chunk);
+          };
+          stream.end = function() {
+              next(str);
+          };
+          return stream;
+        }
+        var ical = new icalendar.iCalendar();
+        var vevent = new icalendar.VEvent('testuid@example.com');
+        vevent.addProperty('DTSTART', new Date(Date.UTC(2011,10,12,14,0,0)));
+        vevent.addProperty('DTEND', new Date(Date.UTC(2011,10,12,15,3,0)));
+        ical.addComponent(vevent);
+        ical.pipe(toStr(function (str) {
+            assert.equal(str, ical.toString());
+            done();
+        }));
+    });
+
     it('format vevent', function() {
         var vevent = new icalendar.VEvent('testuid@daybilling.com');
         vevent.addProperty('DTSTART', new Date(Date.UTC(2011,10,12,14,00,00)));
