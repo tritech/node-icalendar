@@ -51,7 +51,6 @@ Several portions of the iCalendar spec remain unimplemented:
     * HOURLY, MINUTELY, and SECONDLY recurrence are not implemented.
         - Support for these is not currently planned, as they do not
           seem to be found in actual use.
-    * BYHOUR, BYMINUTE, and BYSECOND modifiers are not implement as above.
     * BYSETPOS
     * WKST
         - This could very likely become important

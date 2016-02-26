@@ -16,6 +16,8 @@ describe("RRule", function() {
             .toEqual({FREQ: 'YEARLY', BYDAY: [[-1,0]]});
         expect(new RRule('FREQ=WEEKLY;BYMONTH=1,2,3').valueOf())
             .toEqual({FREQ: 'WEEKLY', BYMONTH: [1,2,3]});
+        expect(new RRule('FREQ=YEARLY;BYMONTH=11;BYDAY=1SU;BYHOUR=2;BYMINUTE=4;BYSECOND=6').valueOf())
+            .toEqual({FREQ: 'YEARLY', BYMONTH: [11], BYDAY: [[1,0]], BYHOUR: [2], BYMINUTE: [4], BYSECOND: [6]})
         rrule = new RRule('FREQ=WEEKLY;BYMONTH=1,2,3').valueOf();
         expect(rrule.FREQ).toEqual('WEEKLY');
         expect(rrule.BYMONTH).toEqual([1,2,3]);
